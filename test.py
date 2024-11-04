@@ -44,7 +44,7 @@ X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_sta
 
 input_size = _N * _N * 3
 batch_size = 64
-epochs = 6
+epochs = 30
 n_classes = np.unique(y).shape[0]
 epsilon = 0.3
 alpha = 0.1
@@ -120,7 +120,7 @@ def print_metrics(model, x, y, c):
     plt.ylabel('True Positive Rate')
     plt.title('Receiver Operating Characteristic (ROC) for Each Class')
     plt.legend(loc='lower right')
-    plt.savefig(f"Performance.png{_N}")
+    plt.savefig(f"Performance{_N}.png")
     plt.show()
 print_metrics(model, X_test, y_test, n_classes)
 log_memory()
