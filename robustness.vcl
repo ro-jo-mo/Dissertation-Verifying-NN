@@ -1,0 +1,5 @@
+
+
+
+@network
+classifier : Input -> Output
