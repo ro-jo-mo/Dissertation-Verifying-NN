@@ -48,7 +48,7 @@ boundedByEpsilon x = forall i j . -epsilon <= x ! i ! j <= epsilon
 robustAround : Image -> Label -> Bool
 robustAround image label = forall perturbation .
   let perturbedImage = image - perturbation in
-  boundedByEpsilon perturbation and validImage perturbedImage =>
+  boundedByEpsilon perturbation and validImage perturbedImage =>   
     advises perturbedImage label
 
 --------------------------------------------------------------------------------
