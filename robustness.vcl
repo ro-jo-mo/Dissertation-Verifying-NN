@@ -3,7 +3,7 @@
 -- Write robustness property in vehicle
 -- Create idx dataset?? 
 
-type Image = Tensor Int [32, 32, 3]
+type Image = Tensor Int [32, 32]
 type Output = Vector Rat 43
 
 @network
