@@ -1,5 +1,5 @@
 -- Todo
--- Recompile marabou with glob
+-- Recompile marabou with gorobi
 -- Write robustness property in vehicle
 -- Create idx dataset?? 
 

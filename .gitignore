@@ -1,3 +1,5 @@
 /.vscode
 /dataset/training_images.zip
 /projectenv
+/dataset/images.idx
+/dataset/labels.idx
