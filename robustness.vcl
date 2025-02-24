@@ -1,8 +1,4 @@
--- Todo
--- Recompile marabou with glob
--- Write robustness property in vehicle
--- Create idx dataset?? 
-
+-- vehicle verify --specification robustness.vcl --network classifier:models/model.onnx --dataset images:dataset/images.idx --dataset labels:dataset/labels.idx --verifier Marabou
 type Image = Tensor Int [32, 32]
 type Output = Vector Rat 43
 
@@ -10,9 +6,6 @@ type Output = Vector Rat 43
 classifier : Image -> Output
 
 
--- How different the predictions can be
-@parameter
-delta : Rat 
 -- How much perturbation can occur on the image
 @parameter
 epsilon : Rat
@@ -20,11 +13,11 @@ epsilon : Rat
 -- Ensures a given perturbation is in the bound of the ball
 -- Using L-inf norm
 inEpsilonBall : Image -> Bool 
-inEpsilonBall perturbations = forall i j k . -epsilon <= perturbations ! i ! j ! k <= epsilon
+inEpsilonBall perturbations = forall i j . -epsilon <= perturbations ! i ! j <= epsilon
 
 -- Ensures all pixel values are within the boundaries for colour 
 validImage : Image -> Bool
-validImage img = forall i j k . 0 <= x ! i ! j ! k <= 255
+validImage img = forall i j k . 0 <= x ! i ! j <= 1
 
 -- Standard Robustness 
 --standardRobustness : Image -> Bool
@@ -34,7 +27,10 @@ validImage img = forall i j k . 0 <= x ! i ! j ! k <= 255
 --    => 
     
 
---lipschitzRobustness : Image -> Bool
+advises : Image -> Label -> Bool
+advise img label = forall i .
+    i != label => classifier img ! label > classifier img ! i
+
 
 robustAround : Image -> Label -> Bool
 robustAround image label = forall perturbation .
