@@ -1,7 +1,7 @@
--- vehicle verify --specification robustness.vcl --network classifier:models/model.onnx --dataset images:dataset/images.idx --dataset labels:dataset/labels.idx --verifier Marabou
-type Image = Tensor Int [32, 32]
+-- vehicle verify --specification robustness.vcl --network classifier:models/model.onnx --parameter epsilon:0.01 --dataset images:dataset/images.idx --dataset labels:dataset/labels.idx --verifier Marabou
+type Image = Tensor Rat [32, 32]
 type Output = Vector Rat 43
-
+type Label = Index 43
 @network
 classifier : Image -> Output
 
@@ -17,7 +17,7 @@ inEpsilonBall perturbations = forall i j . -epsilon <= perturbations ! i ! j <= 
 
 -- Ensures all pixel values are within the boundaries for colour 
 validImage : Image -> Bool
-validImage img = forall i j k . 0 <= x ! i ! j <= 1
+validImage img = forall i j . 0 <= img ! i ! j <= 1
 
 -- Standard Robustness 
 --standardRobustness : Image -> Bool
@@ -28,7 +28,7 @@ validImage img = forall i j k . 0 <= x ! i ! j <= 1
     
 
 advises : Image -> Label -> Bool
-advise img label = forall i .
+advises img label = forall i .
     i != label => classifier img ! label > classifier img ! i
 
 
@@ -46,11 +46,11 @@ n : Nat
 -- training labels. Note that we use the previously declared parameter `n`
 -- to enforce that they are the same size.
 @dataset
-trainingImages : Vector Image n
+images : Vector Image n
 
 @dataset
-trainingLabels : Vector Label n
+labels : Vector Label n
 
 @property
 robust : Vector Bool n
-robust = foreach i . robustAround (trainingImages ! i) (trainingLabels ! i)
+robust = foreach i . robustAround (images ! i) (labels ! i)
