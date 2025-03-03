@@ -31,3 +31,5 @@ class Model(torch.nn.Module):
         x = self.final(x)
 
         return x
+def my_model():
+    return Model()
