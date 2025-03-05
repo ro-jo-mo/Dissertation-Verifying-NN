@@ -29,7 +29,7 @@ def gtsrb_32_colour(spec):
     images,labels = next(iter(loader))
     minimum_values = normalise(torch.zeros((1,3,1,1)))
     maximum_values = normalise(torch.ones((1,3,1,1)))
-    epsilon = 
+    epsilon = (epsilon / std).reshape(1,3,1,1)
     return images, labels, maximum_values, minimum_values, epsilon
 
 def simple_cifar10(spec):
