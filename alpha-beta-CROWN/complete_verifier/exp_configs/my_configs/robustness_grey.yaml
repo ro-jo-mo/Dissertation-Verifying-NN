@@ -13,7 +13,7 @@ data:
   std: [0.2230]
   num_outputs: 43
   start: 0
-  end: 100
+  end: 30
 specification:
   epsilon: 0.00784313725  # 2./255.
 attack:
