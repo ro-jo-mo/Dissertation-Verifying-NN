@@ -3,6 +3,8 @@ import torch
 class Model(torch.nn.Module):
     def __init__(self):
         super().__init__()
+        n_classes = 43
+        _N = 32
         x = torch.zeros((64,3,_N,_N))
         self.activation = torch.nn.functional.relu
         self.pool = torch.nn.MaxPool2d(2,2)

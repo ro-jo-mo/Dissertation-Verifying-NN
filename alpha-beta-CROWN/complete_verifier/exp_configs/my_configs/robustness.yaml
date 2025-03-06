@@ -1,11 +1,11 @@
 # Example for using customized model and data loader.
 # Model and data loader defined in custom_model_data.py
-# python abcrown.py --config exp_configs/tutorial_examples/custom_cifar_data_example.yaml
+# python abcrown.py --config exp_configs/my_configs/robustness.yaml
 model:
   # Model is defined as simple_conv_model() in custom_model_data.py. The function simple_conv_model() will be called with arguments in_channel=3, out_dim=10.
-  name: Customized("my_models", "simple_conv_model")
+  name: Customized("my_models", "my_model")
   # Path to model checkpoint.
-  path: models/eran/cifar_conv_small_pgd.pth
+  path: /home/rob/code/Project/models/adversarial_model.pth
 data:
   # Use the cifar10() loader in "custom_model_data.py".
   dataset: Customized("gtsrb_dataset", "gtsrb_32_colour")
@@ -16,7 +16,7 @@ specification:
 attack:
   pgd_restarts: 100
 solver:
-  batch_size: 2048
+  batch_size: 256
   beta-crown:
     iteration: 20
 bab:
