@@ -34,4 +34,4 @@ class Model(torch.nn.Module):
 
         return x
 def my_model():
-    return Model()
+    return torch.compile(Model())
