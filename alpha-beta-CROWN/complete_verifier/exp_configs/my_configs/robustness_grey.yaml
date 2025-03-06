@@ -1,19 +1,19 @@
 # Example for using customized model and data loader.
 # Model and data loader defined in custom_model_data.py
-# python abcrown.py --config exp_configs/my_configs/robustness.yaml
+# python abcrown.py --config exp_configs/my_configs/robustness_grey.yaml
 model:
   # Model is defined as simple_conv_model() in custom_model_data.py. The function simple_conv_model() will be called with arguments in_channel=3, out_dim=10.
-  name: Customized("my_models", "model_colour")
+  name: Customized("my_models", "model_grey")
   # Path to model checkpoint.
-  path: /home/rob/code/Project/models/adversarial_model_10.0.pth
+  path: /home/rob/code/Project/models/adversarial_model_grey_10.0.pth
 data:
   # Use the cifar10() loader in "custom_model_data.py".
-  dataset: Customized("gtsrb_dataset", "gtsrb_32_colour")
-  mean: [0.3397, 0.3117, 0.3210]
-  std: [0.2299, 0.2247, 0.2332]
+  dataset: Customized("gtsrb_dataset", "gtsrb_32_grey")
+  mean: [0.3211]
+  std: [0.2230]
   num_outputs: 43
   start: 0
-  end: 30
+  end: 100
 specification:
   epsilon: 0.00784313725  # 2./255.
 attack:
