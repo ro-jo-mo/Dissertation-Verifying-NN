@@ -1,21 +1,10 @@
-# Todo
-- Recompile marabou with gorobi 
-- Enable multi threading for marabou?
-- Write vehicle spec for robustness
-- Write vehicle spec to verify idx conversion works
-- Downsize model -> Experiment with variety of models
-- Lipschitz training?
+# Marabou
+- Recompile with Gurobi
+- Enable multi threading?
 
-# Current
-- Check mnist example -> How does it work?, what is different to mine
-- Install alpha beta crown
-- Setup dataset for AB crown
+# Groups constraint
+- 
 
-# Today
-- Finish Adversarial training setup (Generate Some Nice Images, Look at changes in loss between models)
-- Write dataset script for alpha beta crown
-- Run AB Crown
+# Notes
+If AB crown supports softmax, implementing the property will be possible, by adding a layer after softmax summing each of the groups
 
-# Stretch
-- Implement Adam Optimiser for PGD
-- Read paper on lipschitz training
