@@ -59,7 +59,6 @@ class Model_Grey(torch.nn.Module):
         self.dense2 = torch.nn.Linear(x.shape[1],64)
         x = self.activation(self.dense2(x))
         self.final = torch.nn.Linear(x.shape[1],n_classes)
-        self.softmax = torch.nn.Softmax(dim=1)
 
     def forward(self,x):
         x = self.pool(self.activation(self.conv1(x)))
@@ -70,7 +69,7 @@ class Model_Grey(torch.nn.Module):
         x = self.activation(self.dense1(x))
         x = self.activation(self.dense2(x))
         x = self.final(x)
-        x = self.softmax(x)
+
         return x
 def model_grey():
     return Model_Grey()

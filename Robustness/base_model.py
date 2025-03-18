@@ -241,6 +241,7 @@ if __name__ == "main":
         train(model,loss_func,optimiser)
     else:
         adversarial_training()
-        # Idea -> Train 
+         # Changed order of stuff ...asdad
+    evaluate(model)
 
     
