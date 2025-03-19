@@ -14,3 +14,7 @@
 # Notes
 If AB crown supports softmax, implementing the property will be possible, by adding a layer after softmax summing each of the groups
 
+# Neaten files
+- Remove example configs,models,datasets from ab crown folder
+- 
+

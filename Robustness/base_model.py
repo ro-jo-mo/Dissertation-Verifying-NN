@@ -171,14 +171,17 @@ def evaluate(model):
     print(f'F1-score (macro): {f1:.4f}')
 
 @torch.compile
-def pgd_attack(model,images,labels,loss_func,iterations,epsilon,alpha):
+def pgd_attack(model,images,labels,loss_func,epsilon,iterations,decay_rate,learning_rate,beta):
     
     adversarial = denormalise(images)
     lower_bound = adversarial - epsilon
     upper_bound = adversarial + epsilon
     
-    decay = torch.logspace(alpha,1,iterations,2)
+    decay = torch.logspace(decay_rate,1,iterations,2)
     decay = decay / decay[0]
+    decay *= learning_rate
+    
+    momentum = torch.zeros(images.shape).to(device)
 
     for alpha in decay:
         normalised = normalise(adversarial)
@@ -189,8 +192,12 @@ def pgd_attack(model,images,labels,loss_func,iterations,epsilon,alpha):
         #print(loss.item())
         loss.backward()
         # TODO - Edit Learning Rate / Apply Adam Optimiser
-        perturbations = torch.sign(normalised.grad.data) * epsilon * alpha
-        adversarial += perturbations
+        perturbations = torch.sign(normalised.grad.data)
+        
+        adversarial += (perturbations + momentum) * alpha
+
+        momentum = momentum * beta + (1 - beta) * perturbations
+
         adversarial = torch.clip(adversarial,lower_bound, upper_bound)
         adversarial = torch.clip(adversarial,0,1)
 
