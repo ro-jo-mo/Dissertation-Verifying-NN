@@ -239,7 +239,7 @@ if __name__ == "main":
     parser.add_argument("--epsilon",default=0)
     parser.add_argument("--epochs",default=40)
     args = parser.parse_args()
-
+    print("running")
     epsilon = eval(args.epsilon)
     epochs = args.epochs
     
@@ -260,5 +260,5 @@ if __name__ == "main":
          # Changed order of stuff ...asdad
     evaluate(model)
     torch.save(f"/models/base_epsilon_{epsilon}.pth")
-
+print("jasdfsafagf")
     
