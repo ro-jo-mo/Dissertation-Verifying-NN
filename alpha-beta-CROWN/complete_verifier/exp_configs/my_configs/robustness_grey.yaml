@@ -19,7 +19,7 @@ specification:
 attack:
   pgd_restarts: 100
 solver:
-  batch_size: 32
+  batch_size: 64
   beta-crown:
     iteration: 20
 bab:

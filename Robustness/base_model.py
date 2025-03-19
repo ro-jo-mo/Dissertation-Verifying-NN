@@ -125,6 +125,7 @@ class Model(torch.nn.Module):
 
 
 def train(model,loss_func,optimiser,epochs):
+    print("Standard Training")
     for epoch in range(epochs):
         total_loss = 0
         for images, labels in train_loader:
@@ -211,6 +212,7 @@ def denormalise(images):
     return images * std + mean
 
 def adversarial_training(model,loss_func,optimiser,epochs,epsilon,iterations,decay_rate,learning_rate,momentum_decay):
+    print("Adversarial Training")
     for epoch in range(epochs):
         total_loss = 0
         for images, labels in train_loader:
@@ -238,7 +240,7 @@ if __name__ == "main":
     parser.add_argument("--epochs",default=40)
     args = parser.parse_args()
 
-    epsilon = args.epsilon
+    epsilon = eval(args.epsilon)
     epochs = args.epochs
     
     model = Model()
@@ -257,5 +259,6 @@ if __name__ == "main":
         adversarial_training(model,loss_func,optimiser,epochs,epsilon,)
          # Changed order of stuff ...asdad
     evaluate(model)
+    torch.save(f"/models/base_epsilon_{epsilon}.pth")
 
     
