@@ -14,7 +14,7 @@ attack:
   pgd_order: middle
   pgd_restarts: 10
 solver:
-  batch_size: 512
+  batch_size: 16
   beta-crown:
     lr_alpha: 0.05
     lr_beta: 0.1

@@ -124,7 +124,7 @@ class Model(torch.nn.Module):
         return x
 
 
-def train(model,loss_func,optimiser):
+def train(model,loss_func,optimiser,epochs):
     for epoch in range(epochs):
         total_loss = 0
         for images, labels in train_loader:
@@ -171,7 +171,7 @@ def evaluate(model):
     print(f'F1-score (macro): {f1:.4f}')
 
 @torch.compile
-def pgd_attack(model,images,labels,loss_func,epsilon,iterations,decay_rate,learning_rate,beta):
+def pgd_attack(model,images,labels,loss_func,epsilon,iterations,decay_rate,learning_rate,momentum_decay):
     
     adversarial = denormalise(images)
     lower_bound = adversarial - epsilon
@@ -196,7 +196,7 @@ def pgd_attack(model,images,labels,loss_func,epsilon,iterations,decay_rate,learn
         
         adversarial += (perturbations + momentum) * alpha
 
-        momentum = momentum * beta + (1 - beta) * perturbations
+        momentum = momentum * momentum_decay + (1 - momentum_decay) * perturbations
 
         adversarial = torch.clip(adversarial,lower_bound, upper_bound)
         adversarial = torch.clip(adversarial,0,1)
@@ -210,7 +210,7 @@ normalise.to(device)
 def denormalise(images):
     return images * std + mean
 
-def adversarial_training(model,loss_func,optimiser,epochs,iterations,epsilon,alpha):
+def adversarial_training(model,loss_func,optimiser,epochs,epsilon,iterations,decay_rate,learning_rate,momentum_decay):
     for epoch in range(epochs):
         total_loss = 0
         for images, labels in train_loader:
@@ -218,7 +218,7 @@ def adversarial_training(model,loss_func,optimiser,epochs,iterations,epsilon,alp
             labels = labels.to(device)
 
             images = torch.cat((images,
-                pgd_attack(model,images,labels,loss_func,iterations,epsilon,alpha)
+                pgd_attack(model,images,labels,loss_func,epsilon,iterations,decay_rate,learning_rate,momentum_decay)
                 ))
             labels = torch.cat((labels,labels))
 
@@ -237,17 +237,24 @@ if __name__ == "main":
     parser.add_argument("--epsilon",default=0)
     parser.add_argument("--epochs",default=40)
     args = parser.parse_args()
+
     epsilon = args.epsilon
     epochs = args.epochs
-    alpha = 2
-    iterations = 20
+    
     model = Model()
     loss_func = torch.nn.CrossEntropyLoss().to(device)
     optimiser = torch.optim.Adam(model.parameters())   
+
     if epsilon == 0:
-        train(model,loss_func,optimiser)
+        train(model,loss_func,optimiser,epochs)
     else:
-        adversarial_training()
+        # Decay rate, learning rate, beta 6, 40.0, 0.8
+        decay_rate = 6
+        learning_rate = 40 / 255
+        momentum_decay = 0.8
+        iterations = 20
+        
+        adversarial_training(model,loss_func,optimiser,epochs,epsilon,)
          # Changed order of stuff ...asdad
     evaluate(model)
 
