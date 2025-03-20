@@ -51,8 +51,9 @@ def gtsrb_32_grey(spec):
     loader = torch.utils.data.DataLoader(dataset, 
                                            batch_size=99999, 
                                            num_workers=6,
-                                           shuffle=False
+                                           shuffle=True
                                            )
+                                           
     images,labels = next(iter(loader))
     minimum_values = normalise(torch.zeros((1,1,1,1)))
     maximum_values = normalise(torch.ones((1,1,1,1)))

@@ -56,7 +56,7 @@ LABELS = ["20 km/h"
 ,"End of no passing by large vehicles"]
 
 _N = 32
-batch_size = 128
+batch_size = 256
 n_classes = 43
 epochs = 30
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
@@ -233,20 +233,20 @@ def adversarial_training(model,loss_func,optimiser,epochs,epsilon,iterations,dec
         print(f"Epoch {epoch+1} --- Training Loss {total_loss / len(train_loader):.3f} --- Validation Loss {test_performance(model,loss_func):.3f}")
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--epsilon",default=0)
-    parser.add_argument("--epochs",default=40)
+    parser.add_argument("--epsilon",default="0")
+    parser.add_argument("--epochs",default="50")
     args = parser.parse_args()
-    print("running")
+
     epsilon = eval(args.epsilon)
-    epochs = args.epochs
-    
-    model = Model()
+    epochs = int(args.epochs)
+    print(f"Epochs: {epochs}, Epsilon: {epsilon}")
+    model = Model().to(device)
     loss_func = torch.nn.CrossEntropyLoss().to(device)
     optimiser = torch.optim.Adam(model.parameters())   
-
+    
     if epsilon == 0:
         train(model,loss_func,optimiser,epochs)
     else:
@@ -254,11 +254,12 @@ if __name__ == "main":
         decay_rate = 6
         learning_rate = 40 / 255
         momentum_decay = 0.8
-        iterations = 20
+        iterations = 40
         
-        adversarial_training(model,loss_func,optimiser,epochs,epsilon,)
+        adversarial_training(model,loss_func,optimiser,epochs,epsilon,iterations,decay_rate,learning_rate,momentum_decay)
          # Changed order of stuff ...asdad
     evaluate(model)
-    torch.save(f"/models/base_epsilon_{epsilon}.pth")
-print("jasdfsafagf")
+    path = f"models/base_epsilon_{epsilon:.3f}.pth"
+    print(f"Saving {path}")
+    torch.save(model.state_dict(),path)    
     
