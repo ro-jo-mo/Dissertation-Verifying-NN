@@ -7,7 +7,7 @@ data:
   std: [0.2230]
   num_outputs: 43
   start: 0
-  end: 120
+  end: 100
 attack:
   pgd_restarts: 100
 solver:
