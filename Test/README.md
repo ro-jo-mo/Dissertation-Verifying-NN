@@ -39,7 +39,7 @@ A network can be verified against the specification by running the following com
 ```bash
 vehicle verify \
   --specification Test/mnist-robustness.vcl \
-  --network classifier:Test/mnist-classifier.onnx \
+  --network classifier:Test/model.onnx \
   --parameter epsilon:0.005 \
   --dataset trainingImages:Test/images.idx \
   --dataset trainingLabels:Test/labels.idx \
