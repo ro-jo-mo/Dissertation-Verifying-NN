@@ -9,7 +9,6 @@
 # General
 - Organise my file structure
 - Create scripts to run experiments
-- Email second supervisor
 - Add adam optimizer to PGD attack
 
 # Notes
@@ -17,5 +16,9 @@ If AB crown supports softmax, implementing the property will be possible, by add
 
 # Neaten files
 - Remove example configs,models,datasets from ab crown folder
-- 
 
+# Today!
+- Reverse engineer mnist file
+    - Check I write idx correctly
+    - Check I can create an onnx correctly
+Is it between 0 - 1 ????
