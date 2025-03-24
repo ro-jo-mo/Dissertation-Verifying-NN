@@ -2,15 +2,15 @@ type Image = Tensor Rat [32, 32] -- Represents an image
 type Group = Index 6 -- Represents one of the six groups
 type Label = Index 43 -- Represents a label, one of the 43 signs
 type Prediction = Vector Rat 43 -- Represents the output of the model
--- for groups ! i ! j, this evaluates true when label j is a member of group i
+-- for groups ! i ! j, this evaluates True when label j is a member of group i
 groups : Tensor Bool [6,43]
 groups = [
-    [false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false], 
-    [false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false], 
-    [false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, true], 
-    [true, true, true, true, true, true, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false], 
-    [false, false, false, false, false, false, false, false, false, true, true, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false], 
-    [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, false]
+    [False, False, False, False, False, False, False, False, False, False, False, False, True, True, True, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False], 
+    [False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False], 
+    [False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, True, True], 
+    [True, True, True, True, True, True, False, True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False], 
+    [False, False, False, False, False, False, False, False, False, True, True, False, False, False, False, True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False], 
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, False, False]
     ]
     
 memberOfGroup : Label -> Group -> Bool
@@ -21,11 +21,16 @@ validImage x = forall i j . 0 <= x ! i ! j <= 1
 
 mean : Rat
 mean = 0.3211
+
 std : Rat
 std = 0.2230
+
+normalise2 row = foreach j .
+    (row ! j - mean) / std
+
 normalise : Image -> Image
-normalise img = foreach i j.
-    (img ! i ! j - mean) / std
+normalise img = foreach i . normalise2 (img ! i)
+
 
 
 @network
@@ -34,13 +39,15 @@ classifier : Image -> Prediction
 -- The classifier advises that input image `x` has label `i` if the score
 -- for label `i` is greater than the score of any other label `j`.
 
+advises : Prediction -> Label -> Group -> Bool
+advises pred label group = forall i .
+    not memberOfGroup i group => pred ! label >= pred ! i
+
 correctlyGroups : Prediction -> Group -> Bool
 correctlyGroups pred group = forall label . -- If this label is a member of the group, check it is predicted higher than labels outside the group
     memberOfGroup label group => advises pred label group
 
-advises : Prediction -> Label -> Group -> Bool
-advises pred label group = forall i .
-    not memberOfGroup i group => pred ! label >= pred ! i
+
 
 --------------------------------------------------------------------------------
 -- Definition of robustness around a point
@@ -61,12 +68,12 @@ boundedByEpsilon x = forall i j . -epsilon <= x ! i ! j <= epsilon
 -- that should be classified as `y`. Namely, that for any perturbation no greater
 -- than epsilon then if the perturbed image is still a valid image then the
 -- network should still advise label `y` for the perturbed version of `x`.
-robustAround : Image -> Label -> Bool
-robustAround image label = forall perturbation .
-  let perturbedImage = image - perturbation in
-  let predictions = classifier (normalise perturbedImage) in
-  boundedByEpsilon perturbation and validImage perturbedImage =>
-    advises perturbedImage label
+robustAround : Image -> Group -> Bool
+robustAround image group = forall perturbation .
+    let perturbedImage = image - perturbation in
+    let predictions = classifier (normalise perturbedImage) in
+    boundedByEpsilon perturbation and validImage perturbedImage =>
+        correctlyGroups predictions group
 
 --------------------------------------------------------------------------------
 -- Robustness with respect to a dataset
@@ -95,10 +102,9 @@ n : Nat
 images : Vector Image n
 -- Which group this image is in
 @dataset
-groups : Vector Group n
+labels : Vector Group n
 
 -- For all classes in this group, 
-
 
 -- We then say that the network is robust if it is robust around every pair
 -- of input images and output labels. Note the use of the `foreach`
@@ -107,7 +113,7 @@ groups : Vector Group n
 -- ensuring that Vehicle will report on the verification status of each image in
 -- the dataset separately. If `forall` was omitted, Vehicle would only
 -- report if the network was robust around *every* image in the dataset, a
--- state of affairs which is unlikely to be true.
+-- state of affairs which is unlikely to be True.
 @property
 robust : Vector Bool n
-robust = foreach i . robustAround (trainingImages ! i) (trainingLabels ! i)
+robust = foreach i . robustAround (images ! i) (labels ! i)
