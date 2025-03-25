@@ -1,7 +1,7 @@
 type Image = Tensor Rat [32, 32] -- Represents an image
-type Group = Index 6 -- Represents one of the six groups
-type Label = Index 43 -- Represents a label, one of the 43 signs
-type Prediction = Vector Rat 43 -- Represents the output of the model
+type Group = Index 3 -- Represents one of the six groups
+type Label = Index 20 -- Represents a label, one of the 43 signs
+type Prediction = Vector Rat 20 -- Represents the output of the model
 -- for groups ! i ! j, this evaluates True when label j is a member of group i
 groups : Tensor Bool [6,43]
 groups = [
