@@ -18,7 +18,4 @@ If AB crown supports softmax, implementing the property will be possible, by add
 - Remove example configs,models,datasets from ab crown folder
 
 # Today!
-- Reverse engineer mnist file
-    - Check I write idx correctly
-    - Check I can create an onnx correctly
-Is it between 0 - 1 ????
+- Update vehicle spec
