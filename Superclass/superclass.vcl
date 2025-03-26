@@ -1,14 +1,14 @@
 type Image = Tensor Rat [32, 32] -- Represents an image
 type Group = Index 3 -- Represents one of the six groups
-type Label = Index 20 -- Represents a label, one of the 43 signs
-type Prediction = Vector Rat 20 -- Represents the output of the model
+type Label = Index 12 -- Represents a label, one of the 43 signs
+type Prediction = Vector Rat 12 -- Represents the output of the model
 -- for groups ! i ! j, this evaluates True when label j is a member of group i
-groups : Tensor Bool [6,43]
+groups : Tensor Bool [3,12]
 groups = [
-    [False, False, False, False, False, False, True, False, False, True, False, False, False, False, False, False, False, False, True, True],
-    [True, True, True, True, True, True, False, True, True, False, False, False, False, False, False, False, False, False, False, False],
-    [False, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, False, False]
-]
+    [False, False, False, False, False, True, True, True, False, False, True, False],
+    [True, True, False, False, True, False, False, False, False, False, False, True],
+    [False, False, True, True, False, False, False, False, True, True, False, False]
+    ]
     
 memberOfGroup : Label -> Group -> Bool
 memberOfGroup label group = groups ! group ! label
