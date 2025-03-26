@@ -92,9 +92,8 @@ def get_data(_N,batch_size):
 
     GROUPS = [3,3,3,3,3,3,2,3,3,4,4,1,0,0,0,4,4,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,5,5,5,5,5,5,5,5,2,2] 
     GROUP_NAMES = ["Unique Signs","Danger Signs","Derestriction Signs","Speed Limit Signs","Other Prohibitory Signs","Mandatory Signs"]
-
+    groups_to_keep = {0,2,4}
     def filter_dataset(dataset):
-        groups_to_keep = {2,3,5}
         labels_to_keep = {i for i in range(43) if GROUPS[i] in groups_to_keep}
         to_keep = [i for i,(_,label) in enumerate(dataset) if label in labels_to_keep]
         new_label_mapping = {old : new for new,old in enumerate(labels_to_keep)}
@@ -104,15 +103,13 @@ def get_data(_N,batch_size):
         return filtered_dataset, new_label_mapping
     filtered_dataset, mapping = filter_dataset(_dataset)
     n_classes = len(mapping)
-
-    def update_groups(GROUPS):
-        GROUP_NAMES = ["Derestriction Signs","Speed Limit Signs","Mandatory Signs"]
-        remap = {2 : 0, 3 : 1, 5 : 2}
-        print(list(i for i in mapping))
+    LABELS = [LABELS[old] for old in mapping]
+    def update_groups(GROUPS,GROUP_NAMES):
+        GROUP_NAMES = [GROUP_NAMES[i] for i in groups_to_keep]
+        remap = {old : new for new,old in enumerate(groups_to_keep)}
         groups = [remap[GROUPS[old]] for old in mapping]
-        print(groups)
         return groups, GROUP_NAMES
-    GROUPS, GROUP_NAMES = update_groups(GROUPS)
+    GROUPS, GROUP_NAMES = update_groups(GROUPS,GROUP_NAMES)
 
     train_dataset, test_dataset = torch.utils.data.random_split(filtered_dataset, [0.8,0.2])
     train_loader = torch.utils.data.DataLoader(train_dataset, 

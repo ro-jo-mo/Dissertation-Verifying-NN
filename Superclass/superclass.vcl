@@ -5,32 +5,21 @@ type Prediction = Vector Rat 20 -- Represents the output of the model
 -- for groups ! i ! j, this evaluates True when label j is a member of group i
 groups : Tensor Bool [6,43]
 groups = [
-    [False, False, False, False, False, False, False, False, False, False, False, False, True, True, True, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False], 
-    [False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False], 
-    [False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, True, True], 
-    [True, True, True, True, True, True, False, True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False], 
-    [False, False, False, False, False, False, False, False, False, True, True, False, False, False, False, True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False], 
-    [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, False, False]
-    ]
+    [False, False, False, False, False, False, True, False, False, True, False, False, False, False, False, False, False, False, True, True],
+    [True, True, True, True, True, True, False, True, True, False, False, False, False, False, False, False, False, False, False, False],
+    [False, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, False, False]
+]
     
 memberOfGroup : Label -> Group -> Bool
 memberOfGroup label group = groups ! group ! label
 
+-- Normalisation is baked into the dataset 
+
+
+upperBound = 3.044394618834081
+lowerBound = -1.4399103139013452
 validImage : Image -> Bool
-validImage x = forall i j . 0 <= x ! i ! j <= 1
-
-mean : Rat
-mean = 0.3211
-
-std : Rat
-std = 0.2230
-
-normalise2 row = foreach j .
-    (row ! j - mean) / std
-
-normalise : Image -> Image
-normalise img = foreach i . normalise2 (img ! i)
-
+validImage x = forall i j . lowerBound <= x ! i ! j <= upperBound
 
 
 @network
@@ -71,7 +60,7 @@ boundedByEpsilon x = forall i j . -epsilon <= x ! i ! j <= epsilon
 robustAround : Image -> Group -> Bool
 robustAround image group = forall perturbation .
     let perturbedImage = image - perturbation in
-    let predictions = classifier (normalise perturbedImage) in
+    let predictions = classifier perturbedImage in
     boundedByEpsilon perturbation and validImage perturbedImage =>
         correctlyGroups predictions group
 
