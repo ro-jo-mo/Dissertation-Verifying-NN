@@ -4,14 +4,7 @@ general:
   csv_name: instances_eps_0.020.csv # Name of the csv file (ONLY one column listed paths to vnnlibs).
 model:
   name: Customized("my_models", "superclass")
-  input_shape: [-1, 3, 32, 32]
-data:
-  dataset: Customized("gtsrb_dataset", "gtsrb_32_grey")
-  mean: [0.3211]
-  std: [0.2230]
-  num_outputs: 43
-  start: 0
-  end: 100
+  input_shape: [-1, 1, 32, 32]
 attack:
   pgd_restarts: 100
 solver:
