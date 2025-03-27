@@ -1,0 +1,4147 @@
+; GTSRB Superclass Property Label: 8
+(declare-const X_0 Real)
+(declare-const X_1 Real)
+(declare-const X_2 Real)
+(declare-const X_3 Real)
+(declare-const X_4 Real)
+(declare-const X_5 Real)
+(declare-const X_6 Real)
+(declare-const X_7 Real)
+(declare-const X_8 Real)
+(declare-const X_9 Real)
+(declare-const X_10 Real)
+(declare-const X_11 Real)
+(declare-const X_12 Real)
+(declare-const X_13 Real)
+(declare-const X_14 Real)
+(declare-const X_15 Real)
+(declare-const X_16 Real)
+(declare-const X_17 Real)
+(declare-const X_18 Real)
+(declare-const X_19 Real)
+(declare-const X_20 Real)
+(declare-const X_21 Real)
+(declare-const X_22 Real)
+(declare-const X_23 Real)
+(declare-const X_24 Real)
+(declare-const X_25 Real)
+(declare-const X_26 Real)
+(declare-const X_27 Real)
+(declare-const X_28 Real)
+(declare-const X_29 Real)
+(declare-const X_30 Real)
+(declare-const X_31 Real)
+(declare-const X_32 Real)
+(declare-const X_33 Real)
+(declare-const X_34 Real)
+(declare-const X_35 Real)
+(declare-const X_36 Real)
+(declare-const X_37 Real)
+(declare-const X_38 Real)
+(declare-const X_39 Real)
+(declare-const X_40 Real)
+(declare-const X_41 Real)
+(declare-const X_42 Real)
+(declare-const X_43 Real)
+(declare-const X_44 Real)
+(declare-const X_45 Real)
+(declare-const X_46 Real)
+(declare-const X_47 Real)
+(declare-const X_48 Real)
+(declare-const X_49 Real)
+(declare-const X_50 Real)
+(declare-const X_51 Real)
+(declare-const X_52 Real)
+(declare-const X_53 Real)
+(declare-const X_54 Real)
+(declare-const X_55 Real)
+(declare-const X_56 Real)
+(declare-const X_57 Real)
+(declare-const X_58 Real)
+(declare-const X_59 Real)
+(declare-const X_60 Real)
+(declare-const X_61 Real)
+(declare-const X_62 Real)
+(declare-const X_63 Real)
+(declare-const X_64 Real)
+(declare-const X_65 Real)
+(declare-const X_66 Real)
+(declare-const X_67 Real)
+(declare-const X_68 Real)
+(declare-const X_69 Real)
+(declare-const X_70 Real)
+(declare-const X_71 Real)
+(declare-const X_72 Real)
+(declare-const X_73 Real)
+(declare-const X_74 Real)
+(declare-const X_75 Real)
+(declare-const X_76 Real)
+(declare-const X_77 Real)
+(declare-const X_78 Real)
+(declare-const X_79 Real)
+(declare-const X_80 Real)
+(declare-const X_81 Real)
+(declare-const X_82 Real)
+(declare-const X_83 Real)
+(declare-const X_84 Real)
+(declare-const X_85 Real)
+(declare-const X_86 Real)
+(declare-const X_87 Real)
+(declare-const X_88 Real)
+(declare-const X_89 Real)
+(declare-const X_90 Real)
+(declare-const X_91 Real)
+(declare-const X_92 Real)
+(declare-const X_93 Real)
+(declare-const X_94 Real)
+(declare-const X_95 Real)
+(declare-const X_96 Real)
+(declare-const X_97 Real)
+(declare-const X_98 Real)
+(declare-const X_99 Real)
+(declare-const X_100 Real)
+(declare-const X_101 Real)
+(declare-const X_102 Real)
+(declare-const X_103 Real)
+(declare-const X_104 Real)
+(declare-const X_105 Real)
+(declare-const X_106 Real)
+(declare-const X_107 Real)
+(declare-const X_108 Real)
+(declare-const X_109 Real)
+(declare-const X_110 Real)
+(declare-const X_111 Real)
+(declare-const X_112 Real)
+(declare-const X_113 Real)
+(declare-const X_114 Real)
+(declare-const X_115 Real)
+(declare-const X_116 Real)
+(declare-const X_117 Real)
+(declare-const X_118 Real)
+(declare-const X_119 Real)
+(declare-const X_120 Real)
+(declare-const X_121 Real)
+(declare-const X_122 Real)
+(declare-const X_123 Real)
+(declare-const X_124 Real)
+(declare-const X_125 Real)
+(declare-const X_126 Real)
+(declare-const X_127 Real)
+(declare-const X_128 Real)
+(declare-const X_129 Real)
+(declare-const X_130 Real)
+(declare-const X_131 Real)
+(declare-const X_132 Real)
+(declare-const X_133 Real)
+(declare-const X_134 Real)
+(declare-const X_135 Real)
+(declare-const X_136 Real)
+(declare-const X_137 Real)
+(declare-const X_138 Real)
+(declare-const X_139 Real)
+(declare-const X_140 Real)
+(declare-const X_141 Real)
+(declare-const X_142 Real)
+(declare-const X_143 Real)
+(declare-const X_144 Real)
+(declare-const X_145 Real)
+(declare-const X_146 Real)
+(declare-const X_147 Real)
+(declare-const X_148 Real)
+(declare-const X_149 Real)
+(declare-const X_150 Real)
+(declare-const X_151 Real)
+(declare-const X_152 Real)
+(declare-const X_153 Real)
+(declare-const X_154 Real)
+(declare-const X_155 Real)
+(declare-const X_156 Real)
+(declare-const X_157 Real)
+(declare-const X_158 Real)
+(declare-const X_159 Real)
+(declare-const X_160 Real)
+(declare-const X_161 Real)
+(declare-const X_162 Real)
+(declare-const X_163 Real)
+(declare-const X_164 Real)
+(declare-const X_165 Real)
+(declare-const X_166 Real)
+(declare-const X_167 Real)
+(declare-const X_168 Real)
+(declare-const X_169 Real)
+(declare-const X_170 Real)
+(declare-const X_171 Real)
+(declare-const X_172 Real)
+(declare-const X_173 Real)
+(declare-const X_174 Real)
+(declare-const X_175 Real)
+(declare-const X_176 Real)
+(declare-const X_177 Real)
+(declare-const X_178 Real)
+(declare-const X_179 Real)
+(declare-const X_180 Real)
+(declare-const X_181 Real)
+(declare-const X_182 Real)
+(declare-const X_183 Real)
+(declare-const X_184 Real)
+(declare-const X_185 Real)
+(declare-const X_186 Real)
+(declare-const X_187 Real)
+(declare-const X_188 Real)
+(declare-const X_189 Real)
+(declare-const X_190 Real)
+(declare-const X_191 Real)
+(declare-const X_192 Real)
+(declare-const X_193 Real)
+(declare-const X_194 Real)
+(declare-const X_195 Real)
+(declare-const X_196 Real)
+(declare-const X_197 Real)
+(declare-const X_198 Real)
+(declare-const X_199 Real)
+(declare-const X_200 Real)
+(declare-const X_201 Real)
+(declare-const X_202 Real)
+(declare-const X_203 Real)
+(declare-const X_204 Real)
+(declare-const X_205 Real)
+(declare-const X_206 Real)
+(declare-const X_207 Real)
+(declare-const X_208 Real)
+(declare-const X_209 Real)
+(declare-const X_210 Real)
+(declare-const X_211 Real)
+(declare-const X_212 Real)
+(declare-const X_213 Real)
+(declare-const X_214 Real)
+(declare-const X_215 Real)
+(declare-const X_216 Real)
+(declare-const X_217 Real)
+(declare-const X_218 Real)
+(declare-const X_219 Real)
+(declare-const X_220 Real)
+(declare-const X_221 Real)
+(declare-const X_222 Real)
+(declare-const X_223 Real)
+(declare-const X_224 Real)
+(declare-const X_225 Real)
+(declare-const X_226 Real)
+(declare-const X_227 Real)
+(declare-const X_228 Real)
+(declare-const X_229 Real)
+(declare-const X_230 Real)
+(declare-const X_231 Real)
+(declare-const X_232 Real)
+(declare-const X_233 Real)
+(declare-const X_234 Real)
+(declare-const X_235 Real)
+(declare-const X_236 Real)
+(declare-const X_237 Real)
+(declare-const X_238 Real)
+(declare-const X_239 Real)
+(declare-const X_240 Real)
+(declare-const X_241 Real)
+(declare-const X_242 Real)
+(declare-const X_243 Real)
+(declare-const X_244 Real)
+(declare-const X_245 Real)
+(declare-const X_246 Real)
+(declare-const X_247 Real)
+(declare-const X_248 Real)
+(declare-const X_249 Real)
+(declare-const X_250 Real)
+(declare-const X_251 Real)
+(declare-const X_252 Real)
+(declare-const X_253 Real)
+(declare-const X_254 Real)
+(declare-const X_255 Real)
+(declare-const X_256 Real)
+(declare-const X_257 Real)
+(declare-const X_258 Real)
+(declare-const X_259 Real)
+(declare-const X_260 Real)
+(declare-const X_261 Real)
+(declare-const X_262 Real)
+(declare-const X_263 Real)
+(declare-const X_264 Real)
+(declare-const X_265 Real)
+(declare-const X_266 Real)
+(declare-const X_267 Real)
+(declare-const X_268 Real)
+(declare-const X_269 Real)
+(declare-const X_270 Real)
+(declare-const X_271 Real)
+(declare-const X_272 Real)
+(declare-const X_273 Real)
+(declare-const X_274 Real)
+(declare-const X_275 Real)
+(declare-const X_276 Real)
+(declare-const X_277 Real)
+(declare-const X_278 Real)
+(declare-const X_279 Real)
+(declare-const X_280 Real)
+(declare-const X_281 Real)
+(declare-const X_282 Real)
+(declare-const X_283 Real)
+(declare-const X_284 Real)
+(declare-const X_285 Real)
+(declare-const X_286 Real)
+(declare-const X_287 Real)
+(declare-const X_288 Real)
+(declare-const X_289 Real)
+(declare-const X_290 Real)
+(declare-const X_291 Real)
+(declare-const X_292 Real)
+(declare-const X_293 Real)
+(declare-const X_294 Real)
+(declare-const X_295 Real)
+(declare-const X_296 Real)
+(declare-const X_297 Real)
+(declare-const X_298 Real)
+(declare-const X_299 Real)
+(declare-const X_300 Real)
+(declare-const X_301 Real)
+(declare-const X_302 Real)
+(declare-const X_303 Real)
+(declare-const X_304 Real)
+(declare-const X_305 Real)
+(declare-const X_306 Real)
+(declare-const X_307 Real)
+(declare-const X_308 Real)
+(declare-const X_309 Real)
+(declare-const X_310 Real)
+(declare-const X_311 Real)
+(declare-const X_312 Real)
+(declare-const X_313 Real)
+(declare-const X_314 Real)
+(declare-const X_315 Real)
+(declare-const X_316 Real)
+(declare-const X_317 Real)
+(declare-const X_318 Real)
+(declare-const X_319 Real)
+(declare-const X_320 Real)
+(declare-const X_321 Real)
+(declare-const X_322 Real)
+(declare-const X_323 Real)
+(declare-const X_324 Real)
+(declare-const X_325 Real)
+(declare-const X_326 Real)
+(declare-const X_327 Real)
+(declare-const X_328 Real)
+(declare-const X_329 Real)
+(declare-const X_330 Real)
+(declare-const X_331 Real)
+(declare-const X_332 Real)
+(declare-const X_333 Real)
+(declare-const X_334 Real)
+(declare-const X_335 Real)
+(declare-const X_336 Real)
+(declare-const X_337 Real)
+(declare-const X_338 Real)
+(declare-const X_339 Real)
+(declare-const X_340 Real)
+(declare-const X_341 Real)
+(declare-const X_342 Real)
+(declare-const X_343 Real)
+(declare-const X_344 Real)
+(declare-const X_345 Real)
+(declare-const X_346 Real)
+(declare-const X_347 Real)
+(declare-const X_348 Real)
+(declare-const X_349 Real)
+(declare-const X_350 Real)
+(declare-const X_351 Real)
+(declare-const X_352 Real)
+(declare-const X_353 Real)
+(declare-const X_354 Real)
+(declare-const X_355 Real)
+(declare-const X_356 Real)
+(declare-const X_357 Real)
+(declare-const X_358 Real)
+(declare-const X_359 Real)
+(declare-const X_360 Real)
+(declare-const X_361 Real)
+(declare-const X_362 Real)
+(declare-const X_363 Real)
+(declare-const X_364 Real)
+(declare-const X_365 Real)
+(declare-const X_366 Real)
+(declare-const X_367 Real)
+(declare-const X_368 Real)
+(declare-const X_369 Real)
+(declare-const X_370 Real)
+(declare-const X_371 Real)
+(declare-const X_372 Real)
+(declare-const X_373 Real)
+(declare-const X_374 Real)
+(declare-const X_375 Real)
+(declare-const X_376 Real)
+(declare-const X_377 Real)
+(declare-const X_378 Real)
+(declare-const X_379 Real)
+(declare-const X_380 Real)
+(declare-const X_381 Real)
+(declare-const X_382 Real)
+(declare-const X_383 Real)
+(declare-const X_384 Real)
+(declare-const X_385 Real)
+(declare-const X_386 Real)
+(declare-const X_387 Real)
+(declare-const X_388 Real)
+(declare-const X_389 Real)
+(declare-const X_390 Real)
+(declare-const X_391 Real)
+(declare-const X_392 Real)
+(declare-const X_393 Real)
+(declare-const X_394 Real)
+(declare-const X_395 Real)
+(declare-const X_396 Real)
+(declare-const X_397 Real)
+(declare-const X_398 Real)
+(declare-const X_399 Real)
+(declare-const X_400 Real)
+(declare-const X_401 Real)
+(declare-const X_402 Real)
+(declare-const X_403 Real)
+(declare-const X_404 Real)
+(declare-const X_405 Real)
+(declare-const X_406 Real)
+(declare-const X_407 Real)
+(declare-const X_408 Real)
+(declare-const X_409 Real)
+(declare-const X_410 Real)
+(declare-const X_411 Real)
+(declare-const X_412 Real)
+(declare-const X_413 Real)
+(declare-const X_414 Real)
+(declare-const X_415 Real)
+(declare-const X_416 Real)
+(declare-const X_417 Real)
+(declare-const X_418 Real)
+(declare-const X_419 Real)
+(declare-const X_420 Real)
+(declare-const X_421 Real)
+(declare-const X_422 Real)
+(declare-const X_423 Real)
+(declare-const X_424 Real)
+(declare-const X_425 Real)
+(declare-const X_426 Real)
+(declare-const X_427 Real)
+(declare-const X_428 Real)
+(declare-const X_429 Real)
+(declare-const X_430 Real)
+(declare-const X_431 Real)
+(declare-const X_432 Real)
+(declare-const X_433 Real)
+(declare-const X_434 Real)
+(declare-const X_435 Real)
+(declare-const X_436 Real)
+(declare-const X_437 Real)
+(declare-const X_438 Real)
+(declare-const X_439 Real)
+(declare-const X_440 Real)
+(declare-const X_441 Real)
+(declare-const X_442 Real)
+(declare-const X_443 Real)
+(declare-const X_444 Real)
+(declare-const X_445 Real)
+(declare-const X_446 Real)
+(declare-const X_447 Real)
+(declare-const X_448 Real)
+(declare-const X_449 Real)
+(declare-const X_450 Real)
+(declare-const X_451 Real)
+(declare-const X_452 Real)
+(declare-const X_453 Real)
+(declare-const X_454 Real)
+(declare-const X_455 Real)
+(declare-const X_456 Real)
+(declare-const X_457 Real)
+(declare-const X_458 Real)
+(declare-const X_459 Real)
+(declare-const X_460 Real)
+(declare-const X_461 Real)
+(declare-const X_462 Real)
+(declare-const X_463 Real)
+(declare-const X_464 Real)
+(declare-const X_465 Real)
+(declare-const X_466 Real)
+(declare-const X_467 Real)
+(declare-const X_468 Real)
+(declare-const X_469 Real)
+(declare-const X_470 Real)
+(declare-const X_471 Real)
+(declare-const X_472 Real)
+(declare-const X_473 Real)
+(declare-const X_474 Real)
+(declare-const X_475 Real)
+(declare-const X_476 Real)
+(declare-const X_477 Real)
+(declare-const X_478 Real)
+(declare-const X_479 Real)
+(declare-const X_480 Real)
+(declare-const X_481 Real)
+(declare-const X_482 Real)
+(declare-const X_483 Real)
+(declare-const X_484 Real)
+(declare-const X_485 Real)
+(declare-const X_486 Real)
+(declare-const X_487 Real)
+(declare-const X_488 Real)
+(declare-const X_489 Real)
+(declare-const X_490 Real)
+(declare-const X_491 Real)
+(declare-const X_492 Real)
+(declare-const X_493 Real)
+(declare-const X_494 Real)
+(declare-const X_495 Real)
+(declare-const X_496 Real)
+(declare-const X_497 Real)
+(declare-const X_498 Real)
+(declare-const X_499 Real)
+(declare-const X_500 Real)
+(declare-const X_501 Real)
+(declare-const X_502 Real)
+(declare-const X_503 Real)
+(declare-const X_504 Real)
+(declare-const X_505 Real)
+(declare-const X_506 Real)
+(declare-const X_507 Real)
+(declare-const X_508 Real)
+(declare-const X_509 Real)
+(declare-const X_510 Real)
+(declare-const X_511 Real)
+(declare-const X_512 Real)
+(declare-const X_513 Real)
+(declare-const X_514 Real)
+(declare-const X_515 Real)
+(declare-const X_516 Real)
+(declare-const X_517 Real)
+(declare-const X_518 Real)
+(declare-const X_519 Real)
+(declare-const X_520 Real)
+(declare-const X_521 Real)
+(declare-const X_522 Real)
+(declare-const X_523 Real)
+(declare-const X_524 Real)
+(declare-const X_525 Real)
+(declare-const X_526 Real)
+(declare-const X_527 Real)
+(declare-const X_528 Real)
+(declare-const X_529 Real)
+(declare-const X_530 Real)
+(declare-const X_531 Real)
+(declare-const X_532 Real)
+(declare-const X_533 Real)
+(declare-const X_534 Real)
+(declare-const X_535 Real)
+(declare-const X_536 Real)
+(declare-const X_537 Real)
+(declare-const X_538 Real)
+(declare-const X_539 Real)
+(declare-const X_540 Real)
+(declare-const X_541 Real)
+(declare-const X_542 Real)
+(declare-const X_543 Real)
+(declare-const X_544 Real)
+(declare-const X_545 Real)
+(declare-const X_546 Real)
+(declare-const X_547 Real)
+(declare-const X_548 Real)
+(declare-const X_549 Real)
+(declare-const X_550 Real)
+(declare-const X_551 Real)
+(declare-const X_552 Real)
+(declare-const X_553 Real)
+(declare-const X_554 Real)
+(declare-const X_555 Real)
+(declare-const X_556 Real)
+(declare-const X_557 Real)
+(declare-const X_558 Real)
+(declare-const X_559 Real)
+(declare-const X_560 Real)
+(declare-const X_561 Real)
+(declare-const X_562 Real)
+(declare-const X_563 Real)
+(declare-const X_564 Real)
+(declare-const X_565 Real)
+(declare-const X_566 Real)
+(declare-const X_567 Real)
+(declare-const X_568 Real)
+(declare-const X_569 Real)
+(declare-const X_570 Real)
+(declare-const X_571 Real)
+(declare-const X_572 Real)
+(declare-const X_573 Real)
+(declare-const X_574 Real)
+(declare-const X_575 Real)
+(declare-const X_576 Real)
+(declare-const X_577 Real)
+(declare-const X_578 Real)
+(declare-const X_579 Real)
+(declare-const X_580 Real)
+(declare-const X_581 Real)
+(declare-const X_582 Real)
+(declare-const X_583 Real)
+(declare-const X_584 Real)
+(declare-const X_585 Real)
+(declare-const X_586 Real)
+(declare-const X_587 Real)
+(declare-const X_588 Real)
+(declare-const X_589 Real)
+(declare-const X_590 Real)
+(declare-const X_591 Real)
+(declare-const X_592 Real)
+(declare-const X_593 Real)
+(declare-const X_594 Real)
+(declare-const X_595 Real)
+(declare-const X_596 Real)
+(declare-const X_597 Real)
+(declare-const X_598 Real)
+(declare-const X_599 Real)
+(declare-const X_600 Real)
+(declare-const X_601 Real)
+(declare-const X_602 Real)
+(declare-const X_603 Real)
+(declare-const X_604 Real)
+(declare-const X_605 Real)
+(declare-const X_606 Real)
+(declare-const X_607 Real)
+(declare-const X_608 Real)
+(declare-const X_609 Real)
+(declare-const X_610 Real)
+(declare-const X_611 Real)
+(declare-const X_612 Real)
+(declare-const X_613 Real)
+(declare-const X_614 Real)
+(declare-const X_615 Real)
+(declare-const X_616 Real)
+(declare-const X_617 Real)
+(declare-const X_618 Real)
+(declare-const X_619 Real)
+(declare-const X_620 Real)
+(declare-const X_621 Real)
+(declare-const X_622 Real)
+(declare-const X_623 Real)
+(declare-const X_624 Real)
+(declare-const X_625 Real)
+(declare-const X_626 Real)
+(declare-const X_627 Real)
+(declare-const X_628 Real)
+(declare-const X_629 Real)
+(declare-const X_630 Real)
+(declare-const X_631 Real)
+(declare-const X_632 Real)
+(declare-const X_633 Real)
+(declare-const X_634 Real)
+(declare-const X_635 Real)
+(declare-const X_636 Real)
+(declare-const X_637 Real)
+(declare-const X_638 Real)
+(declare-const X_639 Real)
+(declare-const X_640 Real)
+(declare-const X_641 Real)
+(declare-const X_642 Real)
+(declare-const X_643 Real)
+(declare-const X_644 Real)
+(declare-const X_645 Real)
+(declare-const X_646 Real)
+(declare-const X_647 Real)
+(declare-const X_648 Real)
+(declare-const X_649 Real)
+(declare-const X_650 Real)
+(declare-const X_651 Real)
+(declare-const X_652 Real)
+(declare-const X_653 Real)
+(declare-const X_654 Real)
+(declare-const X_655 Real)
+(declare-const X_656 Real)
+(declare-const X_657 Real)
+(declare-const X_658 Real)
+(declare-const X_659 Real)
+(declare-const X_660 Real)
+(declare-const X_661 Real)
+(declare-const X_662 Real)
+(declare-const X_663 Real)
+(declare-const X_664 Real)
+(declare-const X_665 Real)
+(declare-const X_666 Real)
+(declare-const X_667 Real)
+(declare-const X_668 Real)
+(declare-const X_669 Real)
+(declare-const X_670 Real)
+(declare-const X_671 Real)
+(declare-const X_672 Real)
+(declare-const X_673 Real)
+(declare-const X_674 Real)
+(declare-const X_675 Real)
+(declare-const X_676 Real)
+(declare-const X_677 Real)
+(declare-const X_678 Real)
+(declare-const X_679 Real)
+(declare-const X_680 Real)
+(declare-const X_681 Real)
+(declare-const X_682 Real)
+(declare-const X_683 Real)
+(declare-const X_684 Real)
+(declare-const X_685 Real)
+(declare-const X_686 Real)
+(declare-const X_687 Real)
+(declare-const X_688 Real)
+(declare-const X_689 Real)
+(declare-const X_690 Real)
+(declare-const X_691 Real)
+(declare-const X_692 Real)
+(declare-const X_693 Real)
+(declare-const X_694 Real)
+(declare-const X_695 Real)
+(declare-const X_696 Real)
+(declare-const X_697 Real)
+(declare-const X_698 Real)
+(declare-const X_699 Real)
+(declare-const X_700 Real)
+(declare-const X_701 Real)
+(declare-const X_702 Real)
+(declare-const X_703 Real)
+(declare-const X_704 Real)
+(declare-const X_705 Real)
+(declare-const X_706 Real)
+(declare-const X_707 Real)
+(declare-const X_708 Real)
+(declare-const X_709 Real)
+(declare-const X_710 Real)
+(declare-const X_711 Real)
+(declare-const X_712 Real)
+(declare-const X_713 Real)
+(declare-const X_714 Real)
+(declare-const X_715 Real)
+(declare-const X_716 Real)
+(declare-const X_717 Real)
+(declare-const X_718 Real)
+(declare-const X_719 Real)
+(declare-const X_720 Real)
+(declare-const X_721 Real)
+(declare-const X_722 Real)
+(declare-const X_723 Real)
+(declare-const X_724 Real)
+(declare-const X_725 Real)
+(declare-const X_726 Real)
+(declare-const X_727 Real)
+(declare-const X_728 Real)
+(declare-const X_729 Real)
+(declare-const X_730 Real)
+(declare-const X_731 Real)
+(declare-const X_732 Real)
+(declare-const X_733 Real)
+(declare-const X_734 Real)
+(declare-const X_735 Real)
+(declare-const X_736 Real)
+(declare-const X_737 Real)
+(declare-const X_738 Real)
+(declare-const X_739 Real)
+(declare-const X_740 Real)
+(declare-const X_741 Real)
+(declare-const X_742 Real)
+(declare-const X_743 Real)
+(declare-const X_744 Real)
+(declare-const X_745 Real)
+(declare-const X_746 Real)
+(declare-const X_747 Real)
+(declare-const X_748 Real)
+(declare-const X_749 Real)
+(declare-const X_750 Real)
+(declare-const X_751 Real)
+(declare-const X_752 Real)
+(declare-const X_753 Real)
+(declare-const X_754 Real)
+(declare-const X_755 Real)
+(declare-const X_756 Real)
+(declare-const X_757 Real)
+(declare-const X_758 Real)
+(declare-const X_759 Real)
+(declare-const X_760 Real)
+(declare-const X_761 Real)
+(declare-const X_762 Real)
+(declare-const X_763 Real)
+(declare-const X_764 Real)
+(declare-const X_765 Real)
+(declare-const X_766 Real)
+(declare-const X_767 Real)
+(declare-const X_768 Real)
+(declare-const X_769 Real)
+(declare-const X_770 Real)
+(declare-const X_771 Real)
+(declare-const X_772 Real)
+(declare-const X_773 Real)
+(declare-const X_774 Real)
+(declare-const X_775 Real)
+(declare-const X_776 Real)
+(declare-const X_777 Real)
+(declare-const X_778 Real)
+(declare-const X_779 Real)
+(declare-const X_780 Real)
+(declare-const X_781 Real)
+(declare-const X_782 Real)
+(declare-const X_783 Real)
+(declare-const X_784 Real)
+(declare-const X_785 Real)
+(declare-const X_786 Real)
+(declare-const X_787 Real)
+(declare-const X_788 Real)
+(declare-const X_789 Real)
+(declare-const X_790 Real)
+(declare-const X_791 Real)
+(declare-const X_792 Real)
+(declare-const X_793 Real)
+(declare-const X_794 Real)
+(declare-const X_795 Real)
+(declare-const X_796 Real)
+(declare-const X_797 Real)
+(declare-const X_798 Real)
+(declare-const X_799 Real)
+(declare-const X_800 Real)
+(declare-const X_801 Real)
+(declare-const X_802 Real)
+(declare-const X_803 Real)
+(declare-const X_804 Real)
+(declare-const X_805 Real)
+(declare-const X_806 Real)
+(declare-const X_807 Real)
+(declare-const X_808 Real)
+(declare-const X_809 Real)
+(declare-const X_810 Real)
+(declare-const X_811 Real)
+(declare-const X_812 Real)
+(declare-const X_813 Real)
+(declare-const X_814 Real)
+(declare-const X_815 Real)
+(declare-const X_816 Real)
+(declare-const X_817 Real)
+(declare-const X_818 Real)
+(declare-const X_819 Real)
+(declare-const X_820 Real)
+(declare-const X_821 Real)
+(declare-const X_822 Real)
+(declare-const X_823 Real)
+(declare-const X_824 Real)
+(declare-const X_825 Real)
+(declare-const X_826 Real)
+(declare-const X_827 Real)
+(declare-const X_828 Real)
+(declare-const X_829 Real)
+(declare-const X_830 Real)
+(declare-const X_831 Real)
+(declare-const X_832 Real)
+(declare-const X_833 Real)
+(declare-const X_834 Real)
+(declare-const X_835 Real)
+(declare-const X_836 Real)
+(declare-const X_837 Real)
+(declare-const X_838 Real)
+(declare-const X_839 Real)
+(declare-const X_840 Real)
+(declare-const X_841 Real)
+(declare-const X_842 Real)
+(declare-const X_843 Real)
+(declare-const X_844 Real)
+(declare-const X_845 Real)
+(declare-const X_846 Real)
+(declare-const X_847 Real)
+(declare-const X_848 Real)
+(declare-const X_849 Real)
+(declare-const X_850 Real)
+(declare-const X_851 Real)
+(declare-const X_852 Real)
+(declare-const X_853 Real)
+(declare-const X_854 Real)
+(declare-const X_855 Real)
+(declare-const X_856 Real)
+(declare-const X_857 Real)
+(declare-const X_858 Real)
+(declare-const X_859 Real)
+(declare-const X_860 Real)
+(declare-const X_861 Real)
+(declare-const X_862 Real)
+(declare-const X_863 Real)
+(declare-const X_864 Real)
+(declare-const X_865 Real)
+(declare-const X_866 Real)
+(declare-const X_867 Real)
+(declare-const X_868 Real)
+(declare-const X_869 Real)
+(declare-const X_870 Real)
+(declare-const X_871 Real)
+(declare-const X_872 Real)
+(declare-const X_873 Real)
+(declare-const X_874 Real)
+(declare-const X_875 Real)
+(declare-const X_876 Real)
+(declare-const X_877 Real)
+(declare-const X_878 Real)
+(declare-const X_879 Real)
+(declare-const X_880 Real)
+(declare-const X_881 Real)
+(declare-const X_882 Real)
+(declare-const X_883 Real)
+(declare-const X_884 Real)
+(declare-const X_885 Real)
+(declare-const X_886 Real)
+(declare-const X_887 Real)
+(declare-const X_888 Real)
+(declare-const X_889 Real)
+(declare-const X_890 Real)
+(declare-const X_891 Real)
+(declare-const X_892 Real)
+(declare-const X_893 Real)
+(declare-const X_894 Real)
+(declare-const X_895 Real)
+(declare-const X_896 Real)
+(declare-const X_897 Real)
+(declare-const X_898 Real)
+(declare-const X_899 Real)
+(declare-const X_900 Real)
+(declare-const X_901 Real)
+(declare-const X_902 Real)
+(declare-const X_903 Real)
+(declare-const X_904 Real)
+(declare-const X_905 Real)
+(declare-const X_906 Real)
+(declare-const X_907 Real)
+(declare-const X_908 Real)
+(declare-const X_909 Real)
+(declare-const X_910 Real)
+(declare-const X_911 Real)
+(declare-const X_912 Real)
+(declare-const X_913 Real)
+(declare-const X_914 Real)
+(declare-const X_915 Real)
+(declare-const X_916 Real)
+(declare-const X_917 Real)
+(declare-const X_918 Real)
+(declare-const X_919 Real)
+(declare-const X_920 Real)
+(declare-const X_921 Real)
+(declare-const X_922 Real)
+(declare-const X_923 Real)
+(declare-const X_924 Real)
+(declare-const X_925 Real)
+(declare-const X_926 Real)
+(declare-const X_927 Real)
+(declare-const X_928 Real)
+(declare-const X_929 Real)
+(declare-const X_930 Real)
+(declare-const X_931 Real)
+(declare-const X_932 Real)
+(declare-const X_933 Real)
+(declare-const X_934 Real)
+(declare-const X_935 Real)
+(declare-const X_936 Real)
+(declare-const X_937 Real)
+(declare-const X_938 Real)
+(declare-const X_939 Real)
+(declare-const X_940 Real)
+(declare-const X_941 Real)
+(declare-const X_942 Real)
+(declare-const X_943 Real)
+(declare-const X_944 Real)
+(declare-const X_945 Real)
+(declare-const X_946 Real)
+(declare-const X_947 Real)
+(declare-const X_948 Real)
+(declare-const X_949 Real)
+(declare-const X_950 Real)
+(declare-const X_951 Real)
+(declare-const X_952 Real)
+(declare-const X_953 Real)
+(declare-const X_954 Real)
+(declare-const X_955 Real)
+(declare-const X_956 Real)
+(declare-const X_957 Real)
+(declare-const X_958 Real)
+(declare-const X_959 Real)
+(declare-const X_960 Real)
+(declare-const X_961 Real)
+(declare-const X_962 Real)
+(declare-const X_963 Real)
+(declare-const X_964 Real)
+(declare-const X_965 Real)
+(declare-const X_966 Real)
+(declare-const X_967 Real)
+(declare-const X_968 Real)
+(declare-const X_969 Real)
+(declare-const X_970 Real)
+(declare-const X_971 Real)
+(declare-const X_972 Real)
+(declare-const X_973 Real)
+(declare-const X_974 Real)
+(declare-const X_975 Real)
+(declare-const X_976 Real)
+(declare-const X_977 Real)
+(declare-const X_978 Real)
+(declare-const X_979 Real)
+(declare-const X_980 Real)
+(declare-const X_981 Real)
+(declare-const X_982 Real)
+(declare-const X_983 Real)
+(declare-const X_984 Real)
+(declare-const X_985 Real)
+(declare-const X_986 Real)
+(declare-const X_987 Real)
+(declare-const X_988 Real)
+(declare-const X_989 Real)
+(declare-const X_990 Real)
+(declare-const X_991 Real)
+(declare-const X_992 Real)
+(declare-const X_993 Real)
+(declare-const X_994 Real)
+(declare-const X_995 Real)
+(declare-const X_996 Real)
+(declare-const X_997 Real)
+(declare-const X_998 Real)
+(declare-const X_999 Real)
+(declare-const X_1000 Real)
+(declare-const X_1001 Real)
+(declare-const X_1002 Real)
+(declare-const X_1003 Real)
+(declare-const X_1004 Real)
+(declare-const X_1005 Real)
+(declare-const X_1006 Real)
+(declare-const X_1007 Real)
+(declare-const X_1008 Real)
+(declare-const X_1009 Real)
+(declare-const X_1010 Real)
+(declare-const X_1011 Real)
+(declare-const X_1012 Real)
+(declare-const X_1013 Real)
+(declare-const X_1014 Real)
+(declare-const X_1015 Real)
+(declare-const X_1016 Real)
+(declare-const X_1017 Real)
+(declare-const X_1018 Real)
+(declare-const X_1019 Real)
+(declare-const X_1020 Real)
+(declare-const X_1021 Real)
+(declare-const X_1022 Real)
+(declare-const X_1023 Real)
+(declare-const Y_0 Real)
+(declare-const Y_1 Real)
+(declare-const Y_2 Real)
+(declare-const Y_3 Real)
+(declare-const Y_4 Real)
+(declare-const Y_5 Real)
+(declare-const Y_6 Real)
+(declare-const Y_7 Real)
+(declare-const Y_8 Real)
+(declare-const Y_9 Real)
+(declare-const Y_10 Real)
+(declare-const Y_11 Real)
+
+; Input Constraints
+(assert (<= X_0 0.5041063501428595))
+(assert (>= X_0 0.05567585686931695))
+
+(assert (<= X_1 0.38790122409572514))
+(assert (>= X_1 -0.06052926917781745))
+
+(assert (<= X_2 0.27895729978790196))
+(assert (>= X_2 -0.16947319348564063))
+
+(assert (<= X_3 0.20336591628601466))
+(assert (>= X_3 -0.24506457698752795))
+
+(assert (<= X_4 0.17727431644906913))
+(assert (>= X_4 -0.27115617682447346))
+
+(assert (<= X_5 0.1689563951384059))
+(assert (>= X_5 -0.2794740981351367))
+
+(assert (<= X_6 0.26012677689304264))
+(assert (>= X_6 -0.18830371638049995))
+
+(assert (<= X_7 0.3846495672058097))
+(assert (>= X_7 -0.06378092606773292))
+
+(assert (<= X_8 0.47075354297866734))
+(assert (>= X_8 0.022323049705124748))
+
+(assert (<= X_9 0.5746312214921943))
+(assert (>= X_9 0.12620072821865166))
+
+(assert (<= X_10 0.49560014148464115))
+(assert (>= X_10 0.047169648211098564))
+
+(assert (<= X_11 0.560678906638526))
+(assert (>= X_11 0.11224841336498345))
+
+(assert (<= X_12 0.5447201206277839))
+(assert (>= X_12 0.09628962735424126))
+
+(assert (<= X_13 0.5494066848348609))
+(assert (>= X_13 0.10097619156131829))
+
+(assert (<= X_14 0.5269445552419654))
+(assert (>= X_14 0.07851406196842278))
+
+(assert (<= X_15 0.4887153877805701))
+(assert (>= X_15 0.04028489450702752))
+
+(assert (<= X_16 0.5465348436426154))
+(assert (>= X_16 0.0981043503690728))
+
+(assert (<= X_17 0.6079838945459357))
+(assert (>= X_17 0.15955340127239312))
+
+(assert (<= X_18 0.6502224578451148))
+(assert (>= X_18 0.2017919645715722))
+
+(assert (<= X_19 0.6748774125169745))
+(assert (>= X_19 0.22644691924343194))
+
+(assert (<= X_20 0.6872049941610328))
+(assert (>= X_20 0.23877450088749017))
+
+(assert (<= X_21 0.6591084971021643))
+(assert (>= X_21 0.21067800382862176))
+
+(assert (<= X_22 0.6540421022962561))
+(assert (>= X_22 0.20561160902271355))
+
+(assert (<= X_23 0.6633079423498145))
+(assert (>= X_23 0.2148774490762719))
+
+(assert (<= X_24 0.6631180419515601))
+(assert (>= X_24 0.2146875486780175))
+
+(assert (<= X_25 0.6206894292425147))
+(assert (>= X_25 0.1722589359689721))
+
+(assert (<= X_26 0.594029851157569))
+(assert (>= X_26 0.14559935788402642))
+
+(assert (<= X_27 0.6221262290071479))
+(assert (>= X_27 0.17369573573360528))
+
+(assert (<= X_28 0.6358904912065497))
+(assert (>= X_28 0.18745999793300713))
+
+(assert (<= X_29 0.4843296482156745))
+(assert (>= X_29 0.03589915494213189))
+
+(assert (<= X_30 0.5457769407819739))
+(assert (>= X_30 0.09734644750843133))
+
+(assert (<= X_31 0.451923020083808))
+(assert (>= X_31 0.003492526810265434))
+
+(assert (<= X_32 0.6656116916727057))
+(assert (>= X_32 0.21718119839916314))
+
+(assert (<= X_33 0.5164336933683387))
+(assert (>= X_33 0.06800320009479607))
+
+(assert (<= X_34 0.5833272113393775))
+(assert (>= X_34 0.1348967180658349))
+
+(assert (<= X_35 0.5989061965536109))
+(assert (>= X_35 0.1504757032800683))
+
+(assert (<= X_36 0.6400880589078894))
+(assert (>= X_36 0.19165756563434685))
+
+(assert (<= X_37 0.4391066952537528))
+(assert (>= X_37 -0.009323798019789803))
+
+(assert (<= X_38 0.5106885208677283))
+(assert (>= X_38 0.06225802759418572))
+
+(assert (<= X_39 0.43959555764903935))
+(assert (>= X_39 -0.008834935624503243))
+
+(assert (<= X_40 0.3322784676145545))
+(assert (>= X_40 -0.1161520256589881))
+
+(assert (<= X_41 0.27589755122771176))
+(assert (>= X_41 -0.17253294204583083))
+
+(assert (<= X_42 0.2566888182353011))
+(assert (>= X_42 -0.1917416750382415))
+
+(assert (<= X_43 0.276087324966096))
+(assert (>= X_43 -0.1723431683074466))
+
+(assert (<= X_44 0.33552985628356846))
+(assert (>= X_44 -0.11290063698997413))
+
+(assert (<= X_45 0.40729973455181034))
+(assert (>= X_45 -0.04113075872173225))
+
+(assert (<= X_46 0.411497451264762))
+(assert (>= X_46 -0.03693304200878059))
+
+(assert (<= X_47 0.3348492159437171))
+(assert (>= X_47 -0.11358127732982551))
+
+(assert (<= X_48 0.46175686259975346))
+(assert (>= X_48 0.013326369326210868))
+
+(assert (<= X_49 0.5636296047758094))
+(assert (>= X_49 0.11519911150226678))
+
+(assert (<= X_50 0.5616248323511115))
+(assert (>= X_50 0.1131943390775689))
+
+(assert (<= X_51 0.6578617467473975))
+(assert (>= X_51 0.2094312534738549))
+
+(assert (<= X_52 0.6031056716035834))
+(assert (>= X_52 0.15467517833004082))
+
+(assert (<= X_53 0.5960346235822669))
+(assert (>= X_53 0.1476041303087243))
+
+(assert (<= X_54 0.6449662818502417))
+(assert (>= X_54 0.19653578857669915))
+
+(assert (<= X_55 0.6690532638620368))
+(assert (>= X_55 0.2206227705884942))
+
+(assert (<= X_56 0.6565358712266913))
+(assert (>= X_56 0.20810537795314873))
+
+(assert (<= X_57 0.6603552474569312))
+(assert (>= X_57 0.2119247541833886))
+
+(assert (<= X_58 0.6251878513883582))
+(assert (>= X_58 0.1767573581148156))
+
+(assert (<= X_59 0.6055992915224067))
+(assert (>= X_59 0.15716879824886407))
+
+(assert (<= X_60 0.6141071393083564))
+(assert (>= X_60 0.16567664603481377))
+
+(assert (<= X_61 0.6454551591466895))
+(assert (>= X_61 0.1970246658731469))
+
+(assert (<= X_62 0.6276814713071814))
+(assert (>= X_62 0.17925097803363885))
+
+(assert (<= X_63 0.6239411010335913))
+(assert (>= X_63 0.17551060776004876))
+
+(assert (<= X_64 0.6336956693719855))
+(assert (>= X_64 0.18526517609844292))
+
+(assert (<= X_65 0.6500326766561499))
+(assert (>= X_65 0.20160218338260735))
+
+(assert (<= X_66 0.6304441465925208))
+(assert (>= X_66 0.1820136533189782))
+
+(assert (<= X_67 0.6108555867265693))
+(assert (>= X_67 0.16242509345302666))
+
+(assert (<= X_68 0.6221262290071479))
+(assert (>= X_68 0.17369573573360528))
+
+(assert (<= X_69 0.6364583446573249))
+(assert (>= X_69 0.18802785138378228))
+
+(assert (<= X_70 0.6188747062276831))
+(assert (>= X_70 0.17044421295414056))
+
+(assert (<= X_71 0.6077939941476813))
+(assert (>= X_71 0.15936350087413872))
+
+(assert (<= X_72 0.5251315607618323))
+(assert (>= X_72 0.07670106748828973))
+
+(assert (<= X_73 0.616491712529563))
+(assert (>= X_73 0.16806121925602044))
+
+(assert (<= X_74 0.5196870936941138))
+(assert (>= X_74 0.07125660042057122))
+
+(assert (<= X_75 0.616491712529563))
+(assert (>= X_75 0.16806121925602044))
+
+(assert (<= X_76 0.5711897685121528))
+(assert (>= X_76 0.12275927523861016))
+
+(assert (<= X_77 0.39228870709648045))
+(assert (>= X_77 -0.05614178617706214))
+
+(assert (<= X_78 0.3508064224313727))
+(assert (>= X_78 -0.09762407084216987))
+
+(assert (<= X_79 0.2284780478965274))
+(assert (>= X_79 -0.21995244537701522))
+
+(assert (<= X_80 0.15995970358362113))
+(assert (>= X_80 -0.28847078968992146))
+
+(assert (<= X_81 0.2650841175507537))
+(assert (>= X_81 -0.18334637572278892))
+
+(assert (<= X_82 0.3615106715749732))
+(assert (>= X_82 -0.0869198216985694))
+
+(assert (<= X_83 0.49109999080409916))
+(assert (>= X_83 0.04266949753055657))
+
+(assert (<= X_84 0.5822702421735755))
+(assert (>= X_84 0.1338397489000329))
+
+(assert (<= X_85 0.6239411010335913))
+(assert (>= X_85 0.17551060776004876))
+
+(assert (<= X_86 0.6235628797601691))
+(assert (>= X_86 0.17513238648662652))
+
+(assert (<= X_87 0.5566693617891303))
+(assert (>= X_87 0.1082388685155877))
+
+(assert (<= X_88 0.7042206599306098))
+(assert (>= X_88 0.2557901666570672))
+
+(assert (<= X_89 0.6520373298715583))
+(assert (>= X_89 0.20360683659801568))
+
+(assert (<= X_90 0.6188747062276831))
+(assert (>= X_90 0.17044421295414056))
+
+(assert (<= X_91 0.6136182620119086))
+(assert (>= X_91 0.16518776873836602))
+
+(assert (<= X_92 0.6136182620119086))
+(assert (>= X_92 0.16518776873836602))
+
+(assert (<= X_93 0.6271926238130561))
+(assert (>= X_93 0.17876213053951348))
+
+(assert (<= X_94 0.6440183593820563))
+(assert (>= X_94 0.19558786610851372))
+
+(assert (<= X_95 0.6273825242113105))
+(assert (>= X_95 0.17895203093776788))
+
+(assert (<= X_96 0.7054674102853766))
+(assert (>= X_96 0.25703691701183407))
+
+(assert (<= X_97 0.6514694764207831))
+(assert (>= X_97 0.20303898314724053))
+
+(assert (<= X_98 0.5914571060728064))
+(assert (>= X_98 0.14302661279926385))
+
+(assert (<= X_99 0.6226150765012732))
+(assert (>= X_99 0.17418458322773064))
+
+(assert (<= X_100 0.6090407445024482))
+(assert (>= X_100 0.16061025122890557))
+
+(assert (<= X_101 0.605789191920661))
+(assert (>= X_101 0.15735869864711846))
+
+(assert (<= X_102 0.5985281242918006))
+(assert (>= X_102 0.150097631018258))
+
+(assert (<= X_103 0.6296861245225898))
+(assert (>= X_103 0.18125563124904717))
+
+(assert (<= X_104 0.6597872747968665))
+(assert (>= X_104 0.2113567815233239))
+
+(assert (<= X_105 0.6494647039960852))
+(assert (>= X_105 0.20103421072254266))
+
+(assert (<= X_106 0.6300659253190986))
+(assert (>= X_106 0.18163543204555596))
+
+(assert (<= X_107 0.6090407445024482))
+(assert (>= X_107 0.16061025122890557))
+
+(assert (<= X_108 0.6217463984083167))
+(assert (>= X_108 0.1733159051347741))
+
+(assert (<= X_109 0.49128816266765507))
+(assert (>= X_109 0.04285766939411248))
+
+(assert (<= X_110 0.4043156280111304))
+(assert (>= X_110 -0.04411486526241218))
+
+(assert (<= X_111 0.28705364455690296))
+(assert (>= X_111 -0.16137684871663963))
+
+(assert (<= X_112 0.3434362932037345))
+(assert (>= X_112 -0.10499420006980811))
+
+(assert (<= X_113 0.4869797899316779))
+(assert (>= X_113 0.03854929665813531))
+
+(assert (<= X_114 0.45994199057331))
+(assert (>= X_114 0.011511497299767387))
+
+(assert (<= X_115 0.452302835781478))
+(assert (>= X_115 0.003872342507935417))
+
+(assert (<= X_116 0.3480472340177527))
+(assert (>= X_116 -0.10038325925578986))
+
+(assert (<= X_117 0.29654294242372425))
+(assert (>= X_117 -0.15188755084981834))
+
+(assert (<= X_118 0.3103069364022246))
+(assert (>= X_118 -0.13812355687131797))
+
+(assert (<= X_119 0.3527355565618506))
+(assert (>= X_119 -0.09569493671169196))
+
+(assert (<= X_120 0.4267001076530448))
+(assert (>= X_120 -0.02173038562049781))
+
+(assert (<= X_121 0.49234686036815556))
+(assert (>= X_121 0.04391636709461297))
+
+(assert (<= X_122 0.4682599081586829))
+(assert (>= X_122 0.019829414885140312))
+
+(assert (<= X_123 0.5125033928941718))
+(assert (>= X_123 0.0640728996206292))
+
+(assert (<= X_124 0.4090056790899268))
+(assert (>= X_124 -0.03942481418361579))
+
+(assert (<= X_125 0.6016689910482398))
+(assert (>= X_125 0.1532384977746972))
+
+(assert (<= X_126 0.5989061965536109))
+(assert (>= X_126 0.1504757032800683))
+
+(assert (<= X_127 0.6114237083982459))
+(assert (>= X_127 0.1629932151247033))
+
+(assert (<= X_128 0.49359548826923283))
+(assert (>= X_128 0.04516499499569024))
+
+(assert (<= X_129 0.6661812736581794))
+(assert (>= X_129 0.21775078038463677))
+
+(assert (<= X_130 0.47582183023204716))
+(assert (>= X_130 0.02739133695850457))
+
+(assert (<= X_131 0.6248097791265479))
+(assert (>= X_131 0.1763792858530053))
+
+(assert (<= X_132 0.6195533349107734))
+(assert (>= X_132 0.17112284163723077))
+
+(assert (<= X_133 0.6142970397066108))
+(assert (>= X_133 0.16586654643306817))
+
+(assert (<= X_134 0.611045516927146))
+(assert (>= X_134 0.16261502365360345))
+
+(assert (<= X_135 0.605789191920661))
+(assert (>= X_135 0.15735869864711846))
+
+(assert (<= X_136 0.5882054342817298))
+(assert (>= X_136 0.1397749410081872))
+
+(assert (<= X_137 0.5841960086416236))
+(assert (>= X_137 0.13576551536808099))
+
+(assert (<= X_138 0.6226150765012732))
+(assert (>= X_138 0.17418458322773064))
+
+(assert (<= X_139 0.6490847541879645))
+(assert (>= X_139 0.20065426091442193))
+
+(assert (<= X_140 0.6112338079999915))
+(assert (>= X_140 0.1628033147264489))
+
+(assert (<= X_141 0.513938195903205))
+(assert (>= X_141 0.0655077026296624))
+
+(assert (<= X_142 0.38979347785224827))
+(assert (>= X_142 -0.05863701542129432))
+
+(assert (<= X_143 0.26927983005752476))
+(assert (>= X_143 -0.17915066321601783))
+
+(assert (<= X_144 0.24587191258778487))
+(assert (>= X_144 -0.20255858068575774))
+
+(assert (<= X_145 0.3474756478260985))
+(assert (>= X_145 -0.10095484544744407))
+
+(assert (<= X_146 0.4868214203905097))
+(assert (>= X_146 0.038390927116967094))
+
+(assert (<= X_147 0.6034063472341529))
+(assert (>= X_147 0.15497585396061028))
+
+(assert (<= X_148 0.6197433843206397))
+(assert (>= X_148 0.1713128910470971))
+
+(assert (<= X_149 0.5649872793745032))
+(assert (>= X_149 0.11655678610096062))
+
+(assert (<= X_150 0.6353223695348731))
+(assert (>= X_150 0.1868918762613305))
+
+(assert (<= X_151 0.521311916310691))
+(assert (>= X_151 0.07288142303714837))
+
+(assert (<= X_152 0.5392738952230445))
+(assert (>= X_152 0.09084340194950188))
+
+(assert (<= X_153 0.3969771637510291))
+(assert (>= X_153 -0.0514533295225135))
+
+(assert (<= X_154 0.2621315493177405))
+(assert (>= X_154 -0.18629894395580207))
+
+(assert (<= X_155 0.2152046550925604))
+(assert (>= X_155 -0.23322583818098222))
+
+(assert (<= X_156 0.2016302979480258))
+(assert (>= X_156 -0.2468001953255168))
+
+(assert (<= X_157 0.2940474300574294))
+(assert (>= X_157 -0.1543830632161132))
+
+(assert (<= X_158 0.39678712924232395))
+(assert (>= X_158 -0.051643364031218636))
+
+(assert (<= X_159 0.44447205205669316))
+(assert (>= X_159 -0.003958441216849434))
+
+(assert (<= X_160 0.25343715762009533))
+(assert (>= X_160 -0.19499333565344726))
+
+(assert (<= X_161 0.2623231931518546))
+(assert (>= X_161 -0.186107300121688))
+
+(assert (<= X_162 0.27245585237851055))
+(assert (>= X_162 -0.17597464089503204))
+
+(assert (<= X_163 0.4038600399087897))
+(assert (>= X_163 -0.04457045336475288))
+
+(assert (<= X_164 0.5704318954538337))
+(assert (>= X_164 0.12200140218029107))
+
+(assert (<= X_165 0.5631708278249732))
+(assert (>= X_165 0.1147403345514306))
+
+(assert (<= X_166 0.5546628608297339))
+(assert (>= X_166 0.10623236755619134))
+
+(assert (<= X_167 0.5079258753847113))
+(assert (>= X_167 0.059495382111168754))
+
+(assert (<= X_168 0.5938399507593146))
+(assert (>= X_168 0.14540945748577203))
+
+(assert (<= X_169 0.608660913903617))
+(assert (>= X_169 0.1602304206300744))
+
+(assert (<= X_170 0.606656290490531))
+(assert (>= X_170 0.15822579721698846))
+
+(assert (<= X_171 0.6117226852964393))
+(assert (>= X_171 0.16329219202289666))
+
+(assert (<= X_172 0.6001530959199897))
+(assert (>= X_172 0.15172260264644707))
+
+(assert (<= X_173 0.5467230155061713))
+(assert (>= X_173 0.09829252223262872))
+
+(assert (<= X_174 0.4631917848180762))
+(assert (>= X_174 0.014761291544533622))
+
+(assert (<= X_175 0.3637034817527762))
+(assert (>= X_175 -0.08472701152076637))
+
+(assert (<= X_176 0.2477993070076934))
+(assert (>= X_176 -0.20063118626584922))
+
+(assert (<= X_177 0.37942332764377507))
+(assert (>= X_177 -0.06900716562976753))
+
+(assert (<= X_178 0.5628206803392402))
+(assert (>= X_178 0.11439018706569756))
+
+(assert (<= X_179 0.573792464930915))
+(assert (>= X_179 0.12536197165737237))
+
+(assert (<= X_180 0.6751765086244574))
+(assert (>= X_180 0.22674601535091485))
+
+(assert (<= X_181 0.6577825023721686))
+(assert (>= X_181 0.20935200909862603))
+
+(assert (<= X_182 0.6547208799909583))
+(assert (>= X_182 0.2062903867174157))
+
+(assert (<= X_183 0.6723046376298896))
+(assert (>= X_183 0.22387414435634698))
+
+(assert (<= X_184 0.6460231318067542))
+(assert (>= X_184 0.1975926385332116))
+
+(assert (<= X_185 0.6425817086290351))
+(assert (>= X_185 0.19415121535549248))
+
+(assert (<= X_186 0.6197416259836188))
+(assert (>= X_186 0.17131113271007622))
+
+(assert (<= X_187 0.5770140661787024))
+(assert (>= X_187 0.12858357290515984))
+
+(assert (<= X_188 0.41626661260833653))
+(assert (>= X_188 -0.03216388066520606))
+
+(assert (<= X_189 0.5592403783391944))
+(assert (>= X_189 0.11080988506565179))
+
+(assert (<= X_190 0.5162437929700843))
+(assert (>= X_190 0.06781329969654168))
+
+(assert (<= X_191 0.36018466194381626))
+(assert (>= X_191 -0.08824583132972633))
+
+(assert (<= X_192 0.48126802583446415))
+(assert (>= X_192 0.03283753256092156))
+
+(assert (<= X_193 0.6378952636312476))
+(assert (>= X_193 0.189464770357705))
+
+(assert (<= X_194 0.5235048605989447))
+(assert (>= X_194 0.07507436732540215))
+
+(assert (<= X_195 0.4479134752344123))
+(assert (>= X_195 -0.0005170180391303181))
+
+(assert (<= X_196 0.35072904070129307))
+(assert (>= X_196 -0.09770145257224952))
+
+(assert (<= X_197 0.2327091758068434))
+(assert (>= X_197 -0.21572131746669923))
+
+(assert (<= X_198 0.1754595822583667))
+(assert (>= X_198 -0.2729709110151759))
+
+(assert (<= X_199 0.16188536201825057))
+(assert (>= X_199 -0.286545131255292))
+
+(assert (<= X_200 0.22620612186601077))
+(assert (>= X_200 -0.22222437140753185))
+
+(assert (<= X_201 0.31336682279815586))
+(assert (>= X_201 -0.13506367047538673))
+
+(assert (<= X_202 0.410850353438758))
+(assert (>= X_202 -0.037580139834784615))
+
+(assert (<= X_203 0.5200932397436133))
+(assert (>= X_203 0.07166274647007073))
+
+(assert (<= X_204 0.780488945443534))
+(assert (>= X_204 0.3320584521699914))
+
+(assert (<= X_205 1.0946627630781165))
+(assert (>= X_205 0.6462322698045739))
+
+(assert (<= X_206 1.4217623247694007))
+(assert (>= X_206 0.9733318314958581))
+
+(assert (<= X_207 1.8308768047880164))
+(assert (>= X_207 1.3824463115144738))
+
+(assert (<= X_208 1.1921481265615455))
+(assert (>= X_208 0.7437176332880029))
+
+(assert (<= X_209 0.5298198833059302))
+(assert (>= X_209 0.08138939003238763))
+
+(assert (<= X_210 0.7873703612874976))
+(assert (>= X_210 0.33893986801395504))
+
+(assert (<= X_211 0.7078485264371863))
+(assert (>= X_211 0.25941803316364376))
+
+(assert (<= X_212 0.6875829472135535))
+(assert (>= X_212 0.23915245394001092))
+
+(assert (<= X_213 0.6487858070920935))
+(assert (>= X_213 0.20035531381855096))
+
+(assert (<= X_214 0.6138083114217749))
+(assert (>= X_214 0.16537781814823235))
+
+(assert (<= X_215 0.653474248845481))
+(assert (>= X_215 0.2050437555719384))
+
+(assert (<= X_216 0.653284229237937))
+(assert (>= X_216 0.20485373596439446))
+
+(assert (<= X_217 0.6284393741678229))
+(assert (>= X_217 0.18000888089428033))
+
+(assert (<= X_218 0.6389519645761481))
+(assert (>= X_218 0.19052147130260552))
+
+(assert (<= X_219 0.6306340469907752))
+(assert (>= X_219 0.1822035537172326))
+
+(assert (<= X_220 0.6188747062276831))
+(assert (>= X_220 0.17044421295414056))
+
+(assert (<= X_221 0.5990962459634772))
+(assert (>= X_221 0.15066575268993462))
+
+(assert (<= X_222 0.6336956693719855))
+(assert (>= X_222 0.18526517609844292))
+
+(assert (<= X_223 0.5336393787454596))
+(assert (>= X_223 0.08520888547191705))
+
+(assert (<= X_224 0.6983962430547705))
+(assert (>= X_224 0.24996574978122796))
+
+(assert (<= X_225 0.6545310988019934))
+(assert (>= X_225 0.20610060552845086))
+
+(assert (<= X_226 0.6126704587530127))
+(assert (>= X_226 0.16423996547947015))
+
+(assert (<= X_227 0.5651756002496711))
+(assert (>= X_227 0.11674510697612847))
+
+(assert (<= X_228 0.6231830789636603))
+(assert (>= X_228 0.17475258569011773))
+
+(assert (<= X_229 0.6282494737695685))
+(assert (>= X_229 0.17981898049602593))
+
+(assert (<= X_230 0.6393300368379584))
+(assert (>= X_230 0.19089954356441582))
+
+(assert (<= X_231 0.5430932714532843))
+(assert (>= X_231 0.09466277817974175))
+
+(assert (<= X_232 0.5835172607492438))
+(assert (>= X_232 0.13508676747570122))
+
+(assert (<= X_233 0.558104433019065))
+(assert (>= X_233 0.10967393974552239))
+
+(assert (<= X_234 0.48874721666088017))
+(assert (>= X_234 0.04031672338733758))
+
+(assert (<= X_235 0.7652388586591712))
+(assert (>= X_235 0.3168083653856286))
+
+(assert (<= X_236 1.281340218980216))
+(assert (>= X_236 0.8329097257066735))
+
+(assert (<= X_237 1.5077552570890418))
+(assert (>= X_237 1.0593247638154992))
+
+(assert (<= X_238 1.4942619576047889))
+(assert (>= X_238 1.0458314643312463))
+
+(assert (<= X_239 1.163533128697776))
+(assert (>= X_239 0.7151026354242334))
+
+(assert (<= X_240 0.5983910038064948))
+(assert (>= X_240 0.1499605105329522))
+
+(assert (<= X_241 0.3160241692255965))
+(assert (>= X_241 -0.13240632404794608))
+
+(assert (<= X_242 0.25343715762009533))
+(assert (>= X_242 -0.19499333565344726))
+
+(assert (<= X_243 0.24674406451394473))
+(assert (>= X_243 -0.20168642875959789))
+
+(assert (<= X_244 0.5549337639402381))
+(assert (>= X_244 0.10650327066669549))
+
+(assert (<= X_245 0.7659387363981238))
+(assert (>= X_245 0.31750824312458126))
+
+(assert (<= X_246 0.7483549489568702))
+(assert (>= X_246 0.2999244556833276))
+
+(assert (<= X_247 0.720747597415351))
+(assert (>= X_247 0.27231710414180843))
+
+(assert (<= X_248 0.6866369022916785))
+(assert (>= X_248 0.23820640901813592))
+
+(assert (<= X_249 0.646213062007331))
+(assert (>= X_249 0.19778256873378838))
+
+(assert (<= X_250 0.6547208799909583))
+(assert (>= X_250 0.2062903867174157))
+
+(assert (<= X_251 0.6723046376298896))
+(assert (>= X_251 0.22387414435634698))
+
+(assert (<= X_252 0.6141071393083564))
+(assert (>= X_252 0.16567664603481377))
+
+(assert (<= X_253 0.5807545854639045))
+(assert (>= X_253 0.13232409219036187))
+
+(assert (<= X_254 0.6316908969472876))
+(assert (>= X_254 0.18326040367374505))
+
+(assert (<= X_255 0.6846322490762702))
+(assert (>= X_255 0.2362017558027276))
+
+(assert (<= X_256 0.6122923864912024))
+(assert (>= X_256 0.16386189321765984))
+
+(assert (<= X_257 0.6336956693719855))
+(assert (>= X_257 0.18526517609844292))
+
+(assert (<= X_258 0.6055992915224067))
+(assert (>= X_258 0.15716879824886407))
+
+(assert (<= X_259 0.6161119117330542))
+(assert (>= X_259 0.16768141845951165))
+
+(assert (<= X_260 0.6298761739324561))
+(assert (>= X_260 0.1814456806589135))
+
+(assert (<= X_261 0.640198714930915))
+(assert (>= X_261 0.19176822165737237))
+
+(assert (<= X_262 0.6369471921514502))
+(assert (>= X_262 0.18851669887790765))
+
+(assert (<= X_263 0.6565358712266913))
+(assert (>= X_263 0.20810537795314873))
+
+(assert (<= X_264 0.6693520917486182))
+(assert (>= X_264 0.22092159847507561))
+
+(assert (<= X_265 0.7180147244523993))
+(assert (>= X_265 0.26958423117885677))
+
+(assert (<= X_266 1.3232043757032386))
+(assert (>= X_266 0.874773882429696))
+
+(assert (<= X_267 2.0222141518186563))
+(assert (>= X_267 1.5737836585451135))
+
+(assert (<= X_268 1.7009058966230384))
+(assert (>= X_268 1.2524754033494958))
+
+(assert (<= X_269 0.9312302841733924))
+(assert (>= X_269 0.4827997908998498))
+
+(assert (<= X_270 0.4104124083112708))
+(assert (>= X_270 -0.0380180849622718))
+
+(assert (<= X_271 0.006476811964415657))
+(assert (>= X_271 -0.44195368130912693))
+
+(assert (<= X_272 -0.166865311663247))
+(assert (>= X_272 -0.6152958049367896))
+
+(assert (<= X_273 -0.15366917113552178))
+(assert (>= X_273 -0.6020996644090644))
+
+(assert (<= X_274 -0.18051873902568902))
+(assert (>= X_274 -0.6289492322992316))
+
+(assert (<= X_275 -0.18396016220340813))
+(assert (>= X_275 -0.6323906554769507))
+
+(assert (<= X_276 -0.09967278699169244))
+(assert (>= X_276 -0.548103280265235))
+
+(assert (<= X_277 0.1357971056293479))
+(assert (>= X_277 -0.3126333876441947))
+
+(assert (<= X_278 0.3446075393747321))
+(assert (>= X_278 -0.1038229538988105))
+
+(assert (<= X_279 0.49836293597927006))
+(assert (>= X_279 0.04993244270572747))
+
+(assert (<= X_280 0.6812714113782874))
+(assert (>= X_280 0.2328409181047448))
+
+(assert (<= X_281 0.5449100210260382))
+(assert (>= X_281 0.09647952775249566))
+
+(assert (<= X_282 0.6144869401048652))
+(assert (>= X_282 0.16605644683132256))
+
+(assert (<= X_283 0.5370808317255011))
+(assert (>= X_283 0.08865033845195855))
+
+(assert (<= X_284 0.6617920472215644))
+(assert (>= X_284 0.21336155394802178))
+
+(assert (<= X_285 0.6076040639471045))
+(assert (>= X_285 0.15917357067356194))
+
+(assert (<= X_286 0.6005328967164985))
+(assert (>= X_286 0.15210240344295586))
+
+(assert (<= X_287 0.6203113569807044))
+(assert (>= X_287 0.1718808637071618))
+
+(assert (<= X_288 0.6527161075662604))
+(assert (>= X_288 0.20428561429271783))
+
+(assert (<= X_289 0.6215581073354712))
+(assert (>= X_289 0.17312761406192864))
+
+(assert (<= X_290 0.598718024690055))
+(assert (>= X_290 0.15028753141651238))
+
+(assert (<= X_291 0.6266245021413794))
+(assert (>= X_291 0.17819400886783685))
+
+(assert (<= X_292 0.6648536696027747))
+(assert (>= X_292 0.2164231763292321))
+
+(assert (<= X_293 0.6661005391668311))
+(assert (>= X_293 0.2176700458932885))
+
+(assert (<= X_294 0.6836843266080848))
+(assert (>= X_294 0.23525383333454217))
+
+(assert (<= X_295 0.6923819257806769))
+(assert (>= X_295 0.24395143250713433))
+
+(assert (<= X_296 0.7669464125226966))
+(assert (>= X_296 0.318515919249154))
+
+(assert (<= X_297 1.1677711977552405))
+(assert (>= X_297 0.719340704481698))
+
+(assert (<= X_298 1.8819521441053382))
+(assert (>= X_298 1.4335216508317956))
+
+(assert (<= X_299 1.7283761276792518))
+(assert (>= X_299 1.2799456344057092))
+
+(assert (<= X_300 0.8209022059034339))
+(assert (>= X_300 0.3724717126298913))
+
+(assert (<= X_301 0.18068594848027145))
+(assert (>= X_301 -0.26774454479327114))
+
+(assert (<= X_302 -0.12183754901180352))
+(assert (>= X_302 -0.5702680422853461))
+
+(assert (<= X_303 -0.18672635416278924))
+(assert (>= X_303 -0.6351568474363318))
+
+(assert (<= X_304 -0.05236955742130364))
+(assert (>= X_304 -0.5008000506948462))
+
+(assert (<= X_305 0.001329563457869637))
+(assert (>= X_305 -0.44710092981567295))
+
+(assert (<= X_306 -0.054483376543618095))
+(assert (>= X_306 -0.5029138698171607))
+
+(assert (<= X_307 -0.1268230901170739))
+(assert (>= X_307 -0.5752535833906165))
+
+(assert (<= X_308 -0.21187015632877435))
+(assert (>= X_308 -0.6603006496023169))
+
+(assert (<= X_309 -0.2166375444341668))
+(assert (>= X_309 -0.6650680377077094))
+
+(assert (<= X_310 -0.03611176471004571))
+(assert (>= X_310 -0.4845422579835883))
+
+(assert (<= X_311 0.20163377364387428))
+(assert (>= X_311 -0.24679671962966834))
+
+(assert (<= X_312 0.45764013369789036))
+(assert (>= X_312 0.00920964042434777))
+
+(assert (<= X_313 0.42076689739932926))
+(assert (>= X_313 -0.027663595874213326))
+
+(assert (<= X_314 0.3755756243061057))
+(assert (>= X_314 -0.0728548689674369))
+
+(assert (<= X_315 0.3527355565618506))
+(assert (>= X_315 -0.09569493671169196))
+
+(assert (<= X_316 0.4246953352283469))
+(assert (>= X_316 -0.023735158045195687))
+
+(assert (<= X_317 0.4883373155187598))
+(assert (>= X_317 0.039906822245217216))
+
+(assert (<= X_318 0.478014625508689))
+(assert (>= X_318 0.029584132235146415))
+
+(assert (<= X_319 0.5576154365133277))
+(assert (>= X_319 0.10918494323978509))
+
+(assert (<= X_320 0.5245635881017676))
+(assert (>= X_320 0.07613309482822503))
+
+(assert (<= X_321 0.6569157018255225))
+(assert (>= X_321 0.2084852085519799))
+
+(assert (<= X_322 0.45642317076435))
+(assert (>= X_322 0.007992677490807426))
+
+(assert (<= X_323 0.6235628797601691))
+(assert (>= X_323 0.17513238648662652))
+
+(assert (<= X_324 0.6304441465925208))
+(assert (>= X_324 0.1820136533189782))
+
+(assert (<= X_325 0.6336956693719855))
+(assert (>= X_325 0.18526517609844292))
+
+(assert (<= X_326 0.6017797960828772))
+(assert (>= X_326 0.15334930280933465))
+
+(assert (<= X_327 0.7226730956624976))
+(assert (>= X_327 0.27424260238895504))
+
+(assert (<= X_328 1.0929903163503638))
+(assert (>= X_328 0.6445598230768212))
+
+(assert (<= X_329 1.7629860415052405))
+(assert (>= X_329 1.314555548231698))
+
+(assert (<= X_330 1.659454919297599))
+(assert (>= X_330 1.2110244260240564))
+
+(assert (<= X_331 0.91554222245922))
+(assert (>= X_331 0.46711172918567745))
+
+(assert (<= X_332 0.3618606700490943))
+(assert (>= X_332 -0.08656982322444831))
+
+(assert (<= X_333 0.010704330999755013))
+(assert (>= X_333 -0.4377261622737876))
+
+(assert (<= X_334 0.3036139755438796))
+(assert (>= X_334 -0.144816517729663))
+
+(assert (<= X_335 0.9178775324415198))
+(assert (>= X_335 0.46944703916797725))
+
+(assert (<= X_336 1.2547298445295325))
+(assert (>= X_336 0.80629935125599))
+
+(assert (<= X_337 1.5067267193387976))
+(assert (>= X_337 1.058296226065255))
+
+(assert (<= X_338 1.464677669007682))
+(assert (>= X_338 1.0162471757341394))
+
+(assert (<= X_339 1.2063677086423865))
+(assert (>= X_339 0.757937215368844))
+
+(assert (<= X_340 0.9797838701795569))
+(assert (>= X_340 0.5313533769060144))
+
+(assert (<= X_341 0.23438492127915536))
+(assert (>= X_341 -0.21404557199438726))
+
+(assert (<= X_342 -0.16554113487491692))
+(assert (>= X_342 -0.6139716281484595))
+
+(assert (<= X_343 0.06115364273300086))
+(assert (>= X_343 -0.38727685054054173))
+
+(assert (<= X_344 0.24837076281418716))
+(assert (>= X_344 -0.20005973045935546))
+
+(assert (<= X_345 0.4840306713174811))
+(assert (>= X_345 0.03560017804393853))
+
+(assert (<= X_346 0.672195590932273))
+(assert (>= X_346 0.2237650976587304))
+
+(assert (<= X_347 0.548161543805503))
+(assert (>= X_347 0.09973105053196038))
+
+(assert (<= X_348 0.5633607282232276))
+(assert (>= X_348 0.11493023494968499))
+
+(assert (<= X_349 0.44065254171600254))
+(assert (>= X_349 -0.007777951557540047))
+
+(assert (<= X_350 0.3494821562360755))
+(assert (>= X_350 -0.09894833703746711))
+
+(assert (<= X_351 0.2819098680209151))
+(assert (>= X_351 -0.16652062525262748))
+
+(assert (<= X_352 0.3911546244215003))
+(assert (>= X_352 -0.057275868852042305))
+
+(assert (<= X_353 0.31756814559211644))
+(assert (>= X_353 -0.13086234768142616))
+
+(assert (<= X_354 0.2492378371696702))
+(assert (>= X_354 -0.1991926561038724))
+
+(assert (<= X_355 0.2601285128783217))
+(assert (>= X_355 -0.18830198039522086))
+
+(assert (<= X_356 0.26901441802492054))
+(assert (>= X_356 -0.17941607524862205))
+
+(assert (<= X_357 0.3549285008501044))
+(assert (>= X_357 -0.09350199242343818))
+
+(assert (<= X_358 0.45642144222965153))
+(assert (>= X_358 0.00799094895610894))
+
+(assert (<= X_359 0.6017797960828772))
+(assert (>= X_359 0.15334930280933465))
+
+(assert (<= X_360 1.2647869362424842))
+(assert (>= X_360 0.8163564429689416))
+
+(assert (<= X_361 1.7670451178144446))
+(assert (>= X_361 1.318614624540902))
+
+(assert (<= X_362 1.311680532891654))
+(assert (>= X_362 0.8632500396181115))
+
+(assert (<= X_363 0.49424085756053837))
+(assert (>= X_363 0.04581036428699578))
+
+(assert (<= X_364 0.056194700200461495))
+(assert (>= X_364 -0.3922357930730811))
+
+(assert (<= X_365 0.3494031800817481))
+(assert (>= X_365 -0.0990273131917945))
+
+(assert (<= X_366 1.1280437483381263))
+(assert (>= X_366 0.6796132550645837))
+
+(assert (<= X_367 1.5999018921445838))
+(assert (>= X_367 1.1514713988710412))
+
+(assert (<= X_368 1.714559294183158))
+(assert (>= X_368 1.2661288009096154))
+
+(assert (<= X_369 1.779447890717887))
+(assert (>= X_369 1.3310173974443444))
+
+(assert (<= X_370 1.8024778141569129))
+(assert (>= X_370 1.3540473208833703))
+
+(assert (<= X_371 1.7941598667692176))
+(assert (>= X_371 1.345729373495675))
+
+(assert (<= X_372 1.714260198075675))
+(assert (>= X_372 1.2658297048021325))
+
+(assert (<= X_373 1.3729889168333045))
+(assert (>= X_373 0.9245584235597619))
+
+(assert (<= X_374 0.48071754713764103))
+(assert (>= X_374 0.03228705386409844))
+
+(assert (<= X_375 -0.1509099827219018))
+(assert (>= X_375 -0.5993404759954444))
+
+(assert (<= X_376 0.037474833328627694))
+(assert (>= X_376 -0.4109556599449149))
+
+(assert (<= X_377 0.47676960368862065))
+(assert (>= X_377 0.028339110415078056))
+
+(assert (<= X_378 0.682029552657508))
+(assert (>= X_378 0.23359905938396539))
+
+(assert (<= X_379 0.7193107976507178))
+(assert (>= X_379 0.27088030437717525))
+
+(assert (<= X_380 0.6387620641778937))
+(assert (>= X_380 0.19033157090435113))
+
+(assert (<= X_381 0.5722464992593757))
+(assert (>= X_381 0.12381600598583306))
+
+(assert (<= X_382 0.4883373155187598))
+(assert (>= X_382 0.039906822245217216))
+
+(assert (<= X_383 0.64428738494625))
+(assert (>= X_383 0.19585689167270745))
+
+(assert (<= X_384 0.6074158920835486))
+(assert (>= X_384 0.15898539881000603))
+
+(assert (<= X_385 0.7024056686948768))
+(assert (>= X_385 0.2539751754213342))
+
+(assert (<= X_386 0.5356441511701575))
+(assert (>= X_386 0.08721365789661492))
+
+(assert (<= X_387 0.5673701240610114))
+(assert (>= X_387 0.1189396307874688))
+
+(assert (<= X_388 0.5059211029600135))
+(assert (>= X_388 0.05749060968647088))
+
+(assert (<= X_389 0.45623152693023594))
+(assert (>= X_389 0.007801033656693351))
+
+(assert (<= X_390 0.5419555677961341))
+(assert (>= X_390 0.09352507452259148))
+
+(assert (<= X_391 0.5276233329366675))
+(assert (>= X_391 0.07919283966312493))
+
+(assert (<= X_392 1.3750550522397986))
+(assert (>= X_392 0.9266245589662561))
+
+(assert (<= X_393 1.7490511908124915))
+(assert (>= X_393 1.300620697538949))
+
+(assert (<= X_394 0.8948177470754615))
+(assert (>= X_394 0.4463872538019189))
+
+(assert (<= X_395 0.07415641089191352))
+(assert (>= X_395 -0.37427408238162907))
+
+(assert (<= X_396 0.3897178246568671))
+(assert (>= X_396 -0.058712668616675484))
+
+(assert (<= X_397 1.1469549908231726))
+(assert (>= X_397 0.6985244975496301))
+
+(assert (<= X_398 1.5213576330732337))
+(assert (>= X_398 1.0729271397996911))
+
+(assert (<= X_399 1.6833203806470862))
+(assert (>= X_399 1.2348898873735437))
+
+(assert (<= X_400 1.7529765142988196))
+(assert (>= X_400 1.304546021025277))
+
+(assert (<= X_401 1.6949686779569617))
+(assert (>= X_401 1.2465381846834191))
+
+(assert (<= X_402 1.6793896927427283))
+(assert (>= X_402 1.2309591994691857))
+
+(assert (<= X_403 1.6874087824415198))
+(assert (>= X_403 1.2389782891679773))
+
+(assert (<= X_404 1.6582559122632972))
+(assert (>= X_404 1.2098254189897546))
+
+(assert (<= X_405 1.5850488915037146))
+(assert (>= X_405 1.136618398230172))
+
+(assert (<= X_406 1.2699800505231849))
+(assert (>= X_406 0.8215495572496423))
+
+(assert (<= X_407 0.3285080044459334))
+(assert (>= X_407 -0.11992248882760917))
+
+(assert (<= X_408 -0.1697405205179223))
+(assert (>= X_408 -0.6181710137914649))
+
+(assert (<= X_409 0.24186757569422637))
+(assert (>= X_409 -0.20656291757931625))
+
+(assert (<= X_410 0.6378952636312476))
+(assert (>= X_410 0.189464770357705))
+
+(assert (<= X_411 0.697527564961814))
+(assert (>= X_411 0.24909707168827142))
+
+(assert (<= X_412 0.6407668366025916))
+(assert (>= X_412 0.192336343329049))
+
+(assert (<= X_413 0.6387620641778937))
+(assert (>= X_413 0.19033157090435113))
+
+(assert (<= X_414 0.6420135869573584))
+(assert (>= X_414 0.19358309368381585))
+
+(assert (<= X_415 0.6605452968667975))
+(assert (>= X_415 0.21211480359325494))
+
+(assert (<= X_416 0.6775610818456641))
+(assert (>= X_416 0.2291305885721215))
+
+(assert (<= X_417 0.6142970397066108))
+(assert (>= X_417 0.16586654643306817))
+
+(assert (<= X_418 0.5738733186315528))
+(assert (>= X_418 0.12544282535801018))
+
+(assert (<= X_419 0.5985281242918006))
+(assert (>= X_419 0.150097631018258))
+
+(assert (<= X_420 0.6191735341142646))
+(assert (>= X_420 0.17074304084072198))
+
+(assert (<= X_421 0.6450752093385688))
+(assert (>= X_421 0.19664471606502618))
+
+(assert (<= X_422 0.6853091492246619))
+(assert (>= X_422 0.23687865595111932))
+
+(assert (<= X_423 0.7487612142156592))
+(assert (>= X_423 0.30033072094211666))
+
+(assert (<= X_424 1.6033432259153357))
+(assert (>= X_424 1.1549127326417932))
+
+(assert (<= X_425 1.4076694025587073))
+(assert (>= X_425 0.9592389092851648))
+
+(assert (<= X_426 0.37532598515262516))
+(assert (>= X_426 -0.07310450812091743))
+
+(assert (<= X_427 0.10417844345083152))
+(assert (>= X_427 -0.34425204982271107))
+
+(assert (<= X_428 0.8131628408025733))
+(assert (>= X_428 0.3647323475290307))
+
+(assert (<= X_429 1.4367714895795813))
+(assert (>= X_429 0.9883409963060388))
+
+(assert (<= X_430 1.6967856659482947))
+(assert (>= X_430 1.2483551726747522))
+
+(assert (<= X_431 1.7718070520948401))
+(assert (>= X_431 1.3233765588212976))
+
+(assert (<= X_432 1.7632990850996009))
+(assert (>= X_432 1.3148685918260583))
+
+(assert (<= X_433 1.765113927323722))
+(assert (>= X_433 1.3166834340501794))
+
+(assert (<= X_434 1.7816407455991736))
+(assert (>= X_434 1.333210252325631))
+
+(assert (<= X_435 1.7700712456296912))
+(assert (>= X_435 1.3216407523561486))
+
+(assert (<= X_436 1.721329666573905))
+(assert (>= X_436 1.2728991733003625))
+
+(assert (<= X_437 1.6687682642530433))
+(assert (>= X_437 1.2203377709795007))
+
+(assert (<= X_438 1.507074810464286))
+(assert (>= X_438 1.0586443171907434))
+
+(assert (<= X_439 0.9534724726270667))
+(assert (>= X_439 0.5050419793535241))
+
+(assert (<= X_440 0.0822264327596656))
+(assert (>= X_440 -0.366204060513877))
+
+(assert (<= X_441 -0.0073664412904747845))
+(assert (>= X_441 -0.4557969345640174))
+
+(assert (<= X_442 0.451275922257804))
+(assert (>= X_442 0.0028454289842614056))
+
+(assert (<= X_443 0.7018360867094031))
+(assert (>= X_443 0.25340559343586055))
+
+(assert (<= X_444 0.5619239284585944))
+(assert (>= X_444 0.11349343518505181))
+
+(assert (<= X_445 0.6209883763383857))
+(assert (>= X_445 0.17255788306484307))
+
+(assert (<= X_446 0.653583176333808))
+(assert (>= X_446 0.20515268306026543))
+
+(assert (<= X_447 0.7137854768823615))
+(assert (>= X_447 0.26535498360881893))
+
+(assert (<= X_448 0.6326388194154731))
+(assert (>= X_448 0.18420832614193047))
+
+(assert (<= X_449 0.605789191920661))
+(assert (>= X_449 0.15735869864711846))
+
+(assert (<= X_450 0.5985281242918006))
+(assert (>= X_450 0.150097631018258))
+
+(assert (<= X_451 0.6213682069372168))
+(assert (>= X_451 0.17293771366367425))
+
+(assert (<= X_452 0.605031318862342))
+(assert (>= X_452 0.15660082558879937))
+
+(assert (<= X_453 0.5905091538022986))
+(assert (>= X_453 0.14207866052875603))
+
+(assert (<= X_454 0.7889967932294837))
+(assert (>= X_454 0.3405662999559411))
+
+(assert (<= X_455 0.9824163689207068))
+(assert (>= X_455 0.5339858756471643))
+
+(assert (<= X_456 1.3935832752775184))
+(assert (>= X_456 0.9451527820039758))
+
+(assert (<= X_457 0.879208780724906))
+(assert (>= X_457 0.4307782874513635))
+
+(assert (<= X_458 0.25148343471100243))
+(assert (>= X_458 -0.19694705856254016))
+
+(assert (<= X_459 0.37281296392192753))
+(assert (>= X_459 -0.07561752935161506))
+
+(assert (<= X_460 1.0504476203512183))
+(assert (>= X_460 0.6020171270776757))
+
+(assert (<= X_461 1.5930185093473426))
+(assert (>= X_461 1.1445880160738))
+
+(assert (<= X_462 1.730326272447013))
+(assert (>= X_462 1.2818957791734704))
+
+(assert (<= X_463 1.7372075094770423))
+(assert (>= X_463 1.2887770162034997))
+
+(assert (<= X_464 1.7422739042829505))
+(assert (>= X_464 1.293843411009408))
+
+(assert (<= X_465 1.721438743073844))
+(assert (>= X_465 1.2730082498003015))
+
+(assert (<= X_466 1.728699542481803))
+(assert (>= X_466 1.2802690492082605))
+
+(assert (<= X_467 1.7412169947217933))
+(assert (>= X_467 1.2927865014482507))
+
+(assert (<= X_468 1.7432216181348792))
+(assert (>= X_468 1.2947911248613366))
+
+(assert (<= X_469 1.7100590242933265))
+(assert (>= X_469 1.261628531019784))
+
+(assert (<= X_470 1.589925505120658))
+(assert (>= X_470 1.1414950118471154))
+
+(assert (<= X_471 1.1732526793073645))
+(assert (>= X_471 0.724822186033822))
+
+(assert (<= X_472 0.39775616665592106))
+(assert (>= X_472 -0.05067432661762153))
+
+(assert (<= X_473 -0.01874611536750878))
+(assert (>= X_473 -0.46717660864105137))
+
+(assert (<= X_474 0.24027108018507873))
+(assert (>= X_474 -0.2081594130884639))
+
+(assert (<= X_475 0.3521657063554755))
+(assert (>= X_475 -0.09626478691806709))
+
+(assert (<= X_476 0.5039163305353156))
+(assert (>= X_476 0.055485837261773))
+
+(assert (<= X_477 0.5162437929700843))
+(assert (>= X_477 0.06781329969654168))
+
+(assert (<= X_478 0.5756881906579963))
+(assert (>= X_478 0.12725769738445367))
+
+(assert (<= X_479 0.48614452024211796))
+(assert (>= X_479 0.03771402696857537))
+
+(assert (<= X_480 0.5628718509267798))
+(assert (>= X_480 0.11444135765323724))
+
+(assert (<= X_481 0.5653655006479255))
+(assert (>= X_481 0.11693500737438287))
+
+(assert (<= X_482 0.5862007810663215))
+(assert (>= X_482 0.13777028779277886))
+
+(assert (<= X_483 0.5894523336481086))
+(assert (>= X_483 0.14102184037456597))
+
+(assert (<= X_484 0.5927038564275733))
+(assert (>= X_484 0.1442733631540307))
+
+(assert (<= X_485 0.6539631261419288))
+(assert (>= X_485 0.20553263286838616))
+
+(assert (<= X_486 0.7308011426519385))
+(assert (>= X_486 0.28237064937839595))
+
+(assert (<= X_487 0.9339753164838782))
+(assert (>= X_487 0.48554482321033565))
+
+(assert (<= X_488 1.2202411665510169))
+(assert (>= X_488 0.7718106732774743))
+
+(assert (<= X_489 0.7024251594137183))
+(assert (>= X_489 0.25399466614017574))
+
+(assert (<= X_490 0.21049147834291373))
+(assert (>= X_490 -0.23793901493062888))
+
+(assert (<= X_491 0.5082265510152808))
+(assert (>= X_491 0.05979605774173821))
+
+(assert (<= X_492 1.2701489700864783))
+(assert (>= X_492 0.8217184768129357))
+
+(assert (<= X_493 1.6981413139890662))
+(assert (>= X_493 1.2497108207155236))
+
+(assert (<= X_494 1.7406490816663733))
+(assert (>= X_494 1.2922185883928308))
+
+(assert (<= X_495 1.7216285242628089))
+(assert (>= X_495 1.2731980309892663))
+
+(assert (<= X_496 1.7216285242628089))
+(assert (>= X_496 1.2731980309892663))
+
+(assert (<= X_497 1.7392121328901282))
+(assert (>= X_497 1.2907816396165857))
+
+(assert (<= X_498 1.7392121328901282))
+(assert (>= X_498 1.2907816396165857))
+
+(assert (<= X_499 1.724880076844596))
+(assert (>= X_499 1.2764495835710534))
+
+(assert (<= X_500 1.7580429091047278))
+(assert (>= X_500 1.3096124158311853))
+
+(assert (<= X_501 1.7444685473035804))
+(assert (>= X_501 1.2960380540300378))
+
+(assert (<= X_502 1.652999497849845))
+(assert (>= X_502 1.2045690045763024))
+
+(assert (<= X_503 1.4106184019636145))
+(assert (>= X_503 0.962187908690072))
+
+(assert (<= X_504 0.6182960345338813))
+(assert (>= X_504 0.16986554126033868))
+
+(assert (<= X_505 -0.003655977647400749))
+(assert (>= X_505 -0.45208647092094334))
+
+(assert (<= X_506 0.1666843368600837))
+(assert (>= X_506 -0.2817461564134589))
+
+(assert (<= X_507 0.5858209802698127))
+(assert (>= X_507 0.13739048699627007))
+
+(assert (<= X_508 0.5619239284585944))
+(assert (>= X_508 0.11349343518505181))
+
+(assert (<= X_509 0.36018466194381626))
+(assert (>= X_509 -0.08824583132972633))
+
+(assert (<= X_510 0.30055235316266926))
+(assert (>= X_510 -0.14787814011087333))
+
+(assert (<= X_511 0.25649878000130566))
+(assert (>= X_511 -0.19193171327223693))
+
+(assert (<= X_512 0.32051884372939976))
+(assert (>= X_512 -0.12791164954414283))
+
+(assert (<= X_513 0.43902757008781346))
+(assert (>= X_513 -0.009402923185729134))
+
+(assert (<= X_514 0.4776365532468787))
+(assert (>= X_514 0.029206059973336113))
+
+(assert (<= X_515 0.563550628621482))
+(assert (>= X_515 0.11512013534793938))
+
+(assert (<= X_516 0.4633044375967017))
+(assert (>= X_516 0.01487394432315911))
+
+(assert (<= X_517 0.6458349599431983))
+(assert (>= X_517 0.1974044666696557))
+
+(assert (<= X_518 0.6258683576177588))
+(assert (>= X_518 0.17743786434421624))
+
+(assert (<= X_519 1.0063169374059668))
+(assert (>= X_519 0.5578864441324243))
+
+(assert (<= X_520 0.7617392911504737))
+(assert (>= X_520 0.3133087978769311))
+
+(assert (<= X_521 0.37543650706519993))
+(assert (>= X_521 -0.07299398620834266))
+
+(assert (<= X_522 0.17123540480842506))
+(assert (>= X_522 -0.27719508846511753))
+
+(assert (<= X_523 0.6695421113561622))
+(assert (>= X_523 0.22111161808261956))
+
+(assert (<= X_524 1.3637020363401404))
+(assert (>= X_524 0.9152715430665979))
+
+(assert (<= X_525 1.7173501028608313))
+(assert (>= X_525 1.2689196095872888))
+
+(assert (<= X_526 1.7580429091047278))
+(assert (>= X_526 1.3096124158311853))
+
+(assert (<= X_527 1.7196235432218543))
+(assert (>= X_527 1.2711930499483117))
+
+(assert (<= X_528 1.714557148415946))
+(assert (>= X_528 1.2661266551424035))
+
+(assert (<= X_529 1.73414573808422))
+(assert (>= X_529 1.2857152448106774))
+
+(assert (<= X_530 1.73414573808422))
+(assert (>= X_530 1.2857152448106774))
+
+(assert (<= X_531 1.7113059534620276))
+(assert (>= X_531 1.262875460188485))
+
+(assert (<= X_532 1.728889562089347))
+(assert (>= X_532 1.2804590688158044))
+
+(assert (<= X_533 1.7328991665433875))
+(assert (>= X_533 1.284468673269845))
+
+(assert (<= X_534 1.6600705160688392))
+(assert (>= X_534 1.2116400227952966))
+
+(assert (<= X_535 1.4807631744932166))
+(assert (>= X_535 1.032332681219674))
+
+(assert (<= X_536 0.8479417337965003))
+(assert (>= X_536 0.3995112405229577))
+
+(assert (<= X_537 0.023003734547995675))
+(assert (>= X_537 -0.4254267587255469))
+
+(assert (<= X_538 0.07751885791530524))
+(assert (>= X_538 -0.37091163535823735))
+
+(assert (<= X_539 0.582569308478736))
+(assert (>= X_539 0.1341388152051934))
+
+(assert (<= X_540 0.6460231318067542))
+(assert (>= X_540 0.1975926385332116))
+
+(assert (<= X_541 0.5758780910562507))
+(assert (>= X_541 0.12744759778270806))
+
+(assert (<= X_542 0.6268145515512458))
+(assert (>= X_542 0.17838405827770318))
+
+(assert (<= X_543 0.4720021708797446))
+(assert (>= X_543 0.02357167760620202))
+
+(assert (<= X_544 0.5226379110406867))
+(assert (>= X_544 0.0742074177671441))
+
+(assert (<= X_545 0.4372128470729819))
+(assert (>= X_545 -0.011217646200560677))
+
+(assert (<= X_546 0.3618114962171546))
+(assert (>= X_546 -0.08661899705638801))
+
+(assert (<= X_547 0.3213875218223563))
+(assert (>= X_547 -0.1270429714511863))
+
+(assert (<= X_548 0.30380374928226384))
+(assert (>= X_548 -0.14462674399127876))
+
+(assert (<= X_549 0.3404079525660506))
+(assert (>= X_549 -0.10802254070749198))
+
+(assert (<= X_550 0.3958429469655982))
+(assert (>= X_550 -0.052587546307944405))
+
+(assert (<= X_551 0.6062780692171088))
+(assert (>= X_551 0.15784757594356622))
+
+(assert (<= X_552 0.891136921842002))
+(assert (>= X_552 0.44270642856845943))
+
+(assert (<= X_553 0.7012381627153388))
+(assert (>= X_553 0.2528076694417962))
+
+(assert (<= X_554 0.2896632849167815))
+(assert (>= X_554 -0.15876720835676109))
+
+(assert (<= X_555 0.6459440364431372))
+(assert (>= X_555 0.19751354316959466))
+
+(assert (<= X_556 1.3689582123350135))
+(assert (>= X_556 0.9205277190614709))
+
+(assert (<= X_557 1.7050225510190955))
+(assert (>= X_557 1.256592057745553))
+
+(assert (<= X_558 1.7404590620588294))
+(assert (>= X_558 1.2920285687852868))
+
+(assert (<= X_559 1.726884938676261))
+(assert (>= X_559 1.2784544454027185))
+
+(assert (<= X_560 1.73414573808422))
+(assert (>= X_560 1.2857152448106774))
+
+(assert (<= X_561 1.7517293467115393))
+(assert (>= X_561 1.3032988534379968))
+
+(assert (<= X_562 1.7133105768751136))
+(assert (>= X_562 1.264880083601571))
+
+(assert (<= X_563 1.7100590242933265))
+(assert (>= X_563 1.261628531019784))
+
+(assert (<= X_564 1.7349037899564734))
+(assert (>= X_564 1.2864732966829309))
+
+(assert (<= X_565 1.7369086517881385))
+(assert (>= X_565 1.288478158514596))
+
+(assert (<= X_566 1.6972427143644324))
+(assert (>= X_566 1.2488122210908899))
+
+(assert (<= X_567 1.5119211449216834))
+(assert (>= X_567 1.0634906516481408))
+
+(assert (<= X_568 0.8511932863782874))
+(assert (>= X_568 0.40276279310474483))
+
+(assert (<= X_569 0.08626752336730872))
+(assert (>= X_569 -0.36216296990623387))
+
+(assert (<= X_570 0.09022601683845435))
+(assert (>= X_570 -0.35820447643508824))
+
+(assert (<= X_571 0.6266245021413794))
+(assert (>= X_571 0.17819400886783685))
+
+(assert (<= X_572 0.6876938714574805))
+(assert (>= X_572 0.23926337818393792))
+
+(assert (<= X_573 0.6173587812971106))
+(assert (>= X_573 0.16892828802356805))
+
+(assert (<= X_574 0.638194091517829))
+(assert (>= X_574 0.18976359824428643))
+
+(assert (<= X_575 0.6630389167856208))
+(assert (>= X_575 0.21460842351207818))
+
+(assert (<= X_576 0.6639868690561286))
+(assert (>= X_576 0.215556375782586))
+
+(assert (<= X_577 0.6268145515512458))
+(assert (>= X_577 0.17838405827770318))
+
+(assert (<= X_578 0.5740632190298072))
+(assert (>= X_578 0.12563272575626458))
+
+(assert (<= X_579 0.6690532638620368))
+(assert (>= X_579 0.2206227705884942))
+
+(assert (<= X_580 0.6617920472215644))
+(assert (>= X_580 0.21336155394802178))
+
+(assert (<= X_581 0.6755563094209662))
+(assert (>= X_581 0.22712581614742364))
+
+(assert (<= X_582 0.5591630115102759))
+(assert (>= X_582 0.11073251823673333))
+
+(assert (<= X_583 0.7576489820074073))
+(assert (>= X_583 0.3092184887338647))
+
+(assert (<= X_584 0.8235628976415625))
+(assert (>= X_584 0.37513240436802))
+
+(assert (<= X_585 0.33062183101882847))
+(assert (>= X_585 -0.11780866225471412))
+
+(assert (<= X_586 0.08017408092727576))
+(assert (>= X_586 -0.3682564123462668))
+
+(assert (<= X_587 0.5828700139116278))
+(assert (>= X_587 0.13443952063808526))
+
+(assert (<= X_588 1.3069411291669837))
+(assert (>= X_588 0.8585106358934411))
+
+(assert (<= X_589 1.6346877588819495))
+(assert (>= X_589 1.186257265608407))
+
+(assert (<= X_590 1.7085430397581092))
+(assert (>= X_590 1.2601125464845666))
+
+(assert (<= X_591 1.6929640545438758))
+(assert (>= X_591 1.2445335612703332))
+
+(assert (<= X_592 1.6773849501203528))
+(assert (>= X_592 1.2289544568468103))
+
+(assert (<= X_593 1.7165621294569007))
+(assert (>= X_593 1.2681316361833581))
+
+(assert (<= X_594 1.7412169947217933))
+(assert (>= X_594 1.2927865014482507))
+
+(assert (<= X_595 1.7399701847623816))
+(assert (>= X_595 1.291539691488839))
+
+(assert (<= X_596 1.7472312225889197))
+(assert (>= X_596 1.2988007293153772))
+
+(assert (<= X_597 1.7276426329206458))
+(assert (>= X_597 1.2792121396471032))
+
+(assert (<= X_598 1.6952380909513465))
+(assert (>= X_598 1.246807597677804))
+
+(assert (<= X_599 1.4611745848249427))
+(assert (>= X_599 1.0127440915514))
+
+(assert (<= X_600 0.8408705963682166))
+(assert (>= X_600 0.39244010309467403))
+
+(assert (<= X_601 0.026445172626875985))
+(assert (>= X_601 -0.4219853206466666))
+
+(assert (<= X_602 0.07733056684245979))
+(assert (>= X_602 -0.3710999264310828))
+
+(assert (<= X_603 0.4265120698999396))
+(assert (>= X_603 -0.021918423373602974))
+
+(assert (<= X_604 0.7310701384138099))
+(assert (>= X_604 0.2826396451402673))
+
+(assert (<= X_605 0.6397098674367896))
+(assert (>= X_605 0.191279374163247))
+
+(assert (<= X_606 0.5796976162981025))
+(assert (>= X_606 0.13126712302455987))
+
+(assert (<= X_607 0.5784508659433356))
+(assert (>= X_607 0.13002037266979302))
+
+(assert (<= X_608 0.6454551591466895))
+(assert (>= X_608 0.1970246658731469))
+
+(assert (<= X_609 0.6142970397066108))
+(assert (>= X_609 0.16586654643306817))
+
+(assert (<= X_610 0.5914571060728064))
+(assert (>= X_610 0.14302661279926385))
+
+(assert (<= X_611 0.5894523336481086))
+(assert (>= X_611 0.14102184037456597))
+
+(assert (<= X_612 0.5997750236581794))
+(assert (>= X_612 0.15134453038463677))
+
+(assert (<= X_613 0.623861975867652))
+(assert (>= X_613 0.17543148259410943))
+
+(assert (<= X_614 0.6539631261419288))
+(assert (>= X_614 0.20553263286838616))
+
+(assert (<= X_615 0.6998314334939948))
+(assert (>= X_615 0.25140094022045223))
+
+(assert (<= X_616 0.8067388906072608))
+(assert (>= X_616 0.3583083973337182))
+
+(assert (<= X_617 0.46630618711223515))
+(assert (>= X_617 0.017875693838692558))
+
+(assert (<= X_618 0.05903982361068641))
+(assert (>= X_618 -0.3893906696628562))
+
+(assert (<= X_619 0.32762168337812336))
+(assert (>= X_619 -0.12080880989541923))
+
+(assert (<= X_620 1.1744009627889624))
+(assert (>= X_620 0.7259704695154199))
+
+(assert (<= X_621 1.6727286352704993))
+(assert (>= X_621 1.2242981419969567))
+
+(assert (<= X_622 1.737886406381034))
+(assert (>= X_622 1.2894559131074914))
+
+(assert (<= X_623 1.7261266483854285))
+(assert (>= X_623 1.277696155111886))
+
+(assert (<= X_624 1.7281315102170935))
+(assert (>= X_624 1.279701016943551))
+
+(assert (<= X_625 1.726884938676261))
+(assert (>= X_625 1.2784544454027185))
+
+(assert (<= X_626 1.7432216181348792))
+(assert (>= X_626 1.2947911248613366))
+
+(assert (<= X_627 1.75755403180828))
+(assert (>= X_627 1.3091235385347375))
+
+(assert (<= X_628 1.7452263607572547))
+(assert (>= X_628 1.2967958674837121))
+
+(assert (<= X_629 1.6937219872068396))
+(assert (>= X_629 1.245291493933297))
+
+(assert (<= X_630 1.6752716078351966))
+(assert (>= X_630 1.226841114561654))
+
+(assert (<= X_631 1.406230904061698))
+(assert (>= X_631 0.9578004107881555))
+
+(assert (<= X_632 0.5805557145666114))
+(assert (>= X_632 0.13212522129306878))
+
+(assert (<= X_633 -0.02630599598178948))
+(assert (>= X_633 -0.4747364892553321))
+
+(assert (<= X_634 0.15273190279712592))
+(assert (>= X_634 -0.29569859047641667))
+
+(assert (<= X_635 0.5077377035211554))
+(assert (>= X_635 0.059307210247612846))
+
+(assert (<= X_636 0.49855110784282597))
+(assert (>= X_636 0.05012061456928338))
+
+(assert (<= X_637 0.5197644605230323))
+(assert (>= X_637 0.07133396724948968))
+
+(assert (<= X_638 0.4175135119747153))
+(assert (>= X_638 -0.03091698129882728))
+
+(assert (<= X_639 0.5973603500913611))
+(assert (>= X_639 0.14892985681781853))
+
+(assert (<= X_640 0.6306340469907752))
+(assert (>= X_640 0.1822035537172326))
+
+(assert (<= X_641 0.6469709350656501))
+(assert (>= X_641 0.19854044179210747))
+
+(assert (<= X_642 0.6377052142213813))
+(assert (>= X_642 0.18927472094783868))
+
+(assert (<= X_643 0.6316908969472876))
+(assert (>= X_643 0.18326040367374505))
+
+(assert (<= X_644 0.6329377963136664))
+(assert (>= X_644 0.18450730304012383))
+
+(assert (<= X_645 0.6465121283124915))
+(assert (>= X_645 0.1980816350389489))
+
+(assert (<= X_646 0.6557777299474707))
+(assert (>= X_646 0.20734723667392815))
+
+(assert (<= X_647 0.6141071393083564))
+(assert (>= X_647 0.16567664603481377))
+
+(assert (<= X_648 0.5304668321203223))
+(assert (>= X_648 0.08203633884677972))
+
+(assert (<= X_649 0.4983329846452704))
+(assert (>= X_649 0.049902491371727836))
+
+(assert (<= X_650 0.148205429215335))
+(assert (>= X_650 -0.3002250640582076))
+
+(assert (<= X_651 0.1248255743574134))
+(assert (>= X_651 -0.3236049189161292))
+
+(assert (<= X_652 0.799398697812461))
+(assert (>= X_652 0.3509682045389184))
+
+(assert (<= X_653 1.5594779028486243))
+(assert (>= X_653 1.1110474095750817))
+
+(assert (<= X_654 1.7865190281461707))
+(assert (>= X_654 1.3380885348726281))
+
+(assert (<= X_655 1.7600475325178138))
+(assert (>= X_655 1.3116170392442712))
+
+(assert (<= X_656 1.7547913565229407))
+(assert (>= X_656 1.3063608632493982))
+
+(assert (<= X_657 1.7412169947217933))
+(assert (>= X_657 1.2927865014482507))
+
+(assert (<= X_658 1.7379655613492957))
+(assert (>= X_658 1.2895350680757531))
+
+(assert (<= X_659 1.7606155647825232))
+(assert (>= X_659 1.3121850715089807))
+
+(assert (<= X_660 1.752297617394828))
+(assert (>= X_660 1.3038671241212854))
+
+(assert (<= X_661 1.6974324955533973))
+(assert (>= X_661 1.2490020022798547))
+
+(assert (<= X_662 1.499514914948844))
+(assert (>= X_662 1.0510844216753015))
+
+(assert (<= X_663 0.8757673873495093))
+(assert (>= X_663 0.42733689407596676))
+
+(assert (<= X_664 0.3293467461060515))
+(assert (>= X_664 -0.11908374716749107))
+
+(assert (<= X_665 -0.010428048770523918))
+(assert (>= X_665 -0.4588585420440665))
+
+(assert (<= X_666 0.18445801352372085))
+(assert (>= X_666 -0.26397247974982174))
+
+(assert (<= X_667 0.21970467212831293))
+(assert (>= X_667 -0.22872582114522969))
+
+(assert (<= X_668 0.24243395393004333))
+(assert (>= X_668 -0.2059965393434993))
+
+(assert (<= X_669 0.20363493998756324))
+(assert (>= X_669 -0.24479555328597938))
+
+(assert (<= X_670 0.2101382602866522))
+(assert (>= X_670 -0.23829223298689042))
+
+(assert (<= X_671 0.2246602768298487))
+(assert (>= X_671 -0.2237702164436939))
+
+(assert (<= X_672 0.5822702421735755))
+(assert (>= X_672 0.1338397489000329))
+
+(assert (<= X_673 0.4280261023830405))
+(assert (>= X_673 -0.020404390890502083))
+
+(assert (<= X_674 0.567938245732688))
+(assert (>= X_674 0.11950775245914544))
+
+(assert (<= X_675 0.5247517599653235))
+(assert (>= X_675 0.07632126669178094))
+
+(assert (<= X_676 0.6294962241243354))
+(assert (>= X_676 0.18106573085079278))
+
+(assert (<= X_677 0.653583176333808))
+(assert (>= X_677 0.20515268306026543))
+
+(assert (<= X_678 0.6784278823923102))
+(assert (>= X_678 0.22999738911876763))
+
+(assert (<= X_679 0.5983382238935462))
+(assert (>= X_679 0.1499077306200036))
+
+(assert (<= X_680 0.6303333415578833))
+(assert (>= X_680 0.18190284828434075))
+
+(assert (<= X_681 0.5640886797498694))
+(assert (>= X_681 0.11565818647632684))
+
+(assert (<= X_682 0.17229064916481887))
+(assert (>= X_682 -0.2761398441087237))
+
+(assert (<= X_683 -0.013271696965790641))
+(assert (>= X_683 -0.46170219023933323))
+
+(assert (<= X_684 0.47714767595043095))
+(assert (>= X_684 0.02871718267688836))
+
+(assert (<= X_685 1.1050646676610938))
+(assert (>= X_685 0.6566341743875512))
+
+(assert (<= X_686 1.61325631280651))
+(assert (>= X_686 1.1648258195329675))
+
+(assert (<= X_687 1.7852723373960486))
+(assert (>= X_687 1.336841844122506))
+
+(assert (<= X_688 1.6833991779874793))
+(assert (>= X_688 1.2349686847139367))
+
+(assert (<= X_689 1.6467950119565955))
+(assert (>= X_689 1.198364518683053))
+
+(assert (<= X_690 1.7151251806806556))
+(assert (>= X_690 1.266694687407113))
+
+(assert (<= X_691 1.7515395655225745))
+(assert (>= X_691 1.303109072249032))
+
+(assert (<= X_692 1.7557389511655799))
+(assert (>= X_692 1.3073084578920373))
+
+(assert (<= X_693 1.653080202538871))
+(assert (>= X_693 1.2046497092653283))
+
+(assert (<= X_694 1.2710069193433753))
+(assert (>= X_694 0.8225764260698327))
+
+(assert (<= X_695 0.6810200287889472))
+(assert (>= X_695 0.2325895355154046))
+
+(assert (<= X_696 0.04153356691112434))
+(assert (>= X_696 -0.40689692636241825))
+
+(assert (<= X_697 -0.0010532812286385418))
+(assert (>= X_697 -0.44948377450218113))
+
+(assert (<= X_698 0.3934583588432303))
+(assert (>= X_698 -0.054972134430312264))
+
+(assert (<= X_699 0.6014808191846839))
+(assert (>= X_699 0.1530503259111413))
+
+(assert (<= X_700 0.4590750559162131))
+(assert (>= X_700 0.010644562642670524))
+
+(assert (<= X_701 0.5850331558774939))
+(assert (>= X_701 0.13660266260395135))
+
+(assert (<= X_702 0.4383488072942725))
+(assert (>= X_702 -0.010081685979270089))
+
+(assert (<= X_703 0.5654446258138648))
+(assert (>= X_703 0.1170141325403222))
+
+(assert (<= X_704 0.18147390698304092))
+(assert (>= X_704 -0.2669565862905017))
+
+(assert (<= X_705 0.2279118037711612))
+(assert (>= X_705 -0.22051868950238143))
+
+(assert (<= X_706 0.3130678608011237))
+(assert (>= X_706 -0.1353626324724189))
+
+(assert (<= X_707 0.4054849966358176))
+(assert (>= X_707 -0.042945496637724984))
+
+(assert (<= X_708 0.4418992920707694))
+(assert (>= X_708 -0.006531201202773201))
+
+(assert (<= X_709 0.48557467003574284))
+(assert (>= X_709 0.03714417676220025))
+
+(assert (<= X_710 0.49302578707446965))
+(assert (>= X_710 0.044595293800927055))
+
+(assert (<= X_711 0.528571255404853))
+(assert (>= X_711 0.08014076213131036))
+
+(assert (<= X_712 0.5088720693181983))
+(assert (>= X_712 0.06044157604465569))
+
+(assert (<= X_713 0.5575046314786902))
+(assert (>= X_713 0.10907413820514764))
+
+(assert (<= X_714 0.3058877735327712))
+(assert (>= X_714 -0.1425427197407714))
+
+(assert (<= X_715 -0.08534239987621392))
+(assert (>= X_715 -0.5337728931497565))
+
+(assert (<= X_716 0.10043965270032798))
+(assert (>= X_716 -0.3479908405732146))
+
+(assert (<= X_717 0.7205575480054847))
+(assert (>= X_717 0.2721270547319421))
+
+(assert (<= X_718 1.2233029379438392))
+(assert (>= X_718 0.7748724446702966))
+
+(assert (<= X_719 1.595781423051261))
+(assert (>= X_719 1.1473509297777185))
+
+(assert (<= X_720 1.760995365579032))
+(assert (>= X_720 1.3125648723054895))
+
+(assert (<= X_721 1.7450365795682898))
+(assert (>= X_721 1.2966060862947473))
+
+(assert (<= X_722 1.7543022408079139))
+(assert (>= X_722 1.3058717475343713))
+
+(assert (<= X_723 1.742922879655265))
+(assert (>= X_723 1.2944923863817224))
+
+(assert (<= X_724 1.6345487608503333))
+(assert (>= X_724 1.1861182675767907))
+
+(assert (<= X_725 1.3289335741590491))
+(assert (>= X_725 0.8805030808855066))
+
+(assert (<= X_726 0.8956547154973975))
+(assert (>= X_726 0.44722422222385494))
+
+(assert (<= X_727 0.15573205043783103))
+(assert (>= X_727 -0.29269844283571156))
+
+(assert (<= X_728 -0.18626736859569634))
+(assert (>= X_728 -0.6346978618692389))
+
+(assert (<= X_729 0.18090752874722396))
+(assert (>= X_729 -0.26752296452631863))
+
+(assert (<= X_730 0.5328815056871405))
+(assert (>= X_730 0.08445101241359795))
+
+(assert (<= X_731 0.5780726446699134))
+(assert (>= X_731 0.12964215139637078))
+
+(assert (<= X_732 0.6315818502496711))
+(assert (>= X_732 0.18315135697612847))
+
+(assert (<= X_733 0.6471608354639045))
+(assert (>= X_733 0.19873034219036187))
+
+(assert (<= X_734 0.6678062452863684))
+(assert (>= X_734 0.21937575201282586))
+
+(assert (<= X_735 0.6397098674367896))
+(assert (>= X_735 0.191279374163247))
+
+(assert (<= X_736 0.6012909187864295))
+(assert (>= X_736 0.1528604255128869))
+
+(assert (<= X_737 0.44579979022254856))
+(assert (>= X_737 -0.0026307030509940266))
+
+(assert (<= X_738 0.525699533421897))
+(assert (>= X_738 0.07726904014835442))
+
+(assert (<= X_739 0.4669340475391379))
+(assert (>= X_739 0.01850355426559533))
+
+(assert (<= X_740 0.4194390251230231))
+(assert (>= X_740 -0.028991468150519478))
+
+(assert (<= X_741 0.40004066367854985))
+(assert (>= X_741 -0.048389829594992745))
+
+(assert (<= X_742 0.3703193291019431))
+(assert (>= X_742 -0.0781111641715995))
+
+(assert (<= X_743 0.2829685843478671))
+(assert (>= X_743 -0.1654619089256755))
+
+(assert (<= X_744 0.18310047303547775))
+(assert (>= X_744 -0.26533002023806485))
+
+(assert (<= X_745 0.22008274718409096))
+(assert (>= X_745 -0.22834774608945166))
+
+(assert (<= X_746 0.3250963761400214))
+(assert (>= X_746 -0.12333411713352119))
+
+(assert (<= X_747 0.14007407416810905))
+(assert (>= X_747 -0.30835641910543354))
+
+(assert (<= X_748 -0.1511790678907403))
+(assert (>= X_748 -0.5996095611642829))
+
+(assert (<= X_749 0.08806126554717933))
+(assert (>= X_749 -0.36036922772636326))
+
+(assert (<= X_750 0.6312319709848395))
+(assert (>= X_750 0.18280147771129693))
+
+(assert (<= X_751 1.128203846413993))
+(assert (>= X_751 0.6797733531404504))
+
+(assert (<= X_752 1.5657610668729773))
+(assert (>= X_752 1.1173305735994348))
+
+(assert (<= X_753 1.7482899202894202))
+(assert (>= X_753 1.2998594270158776))
+
+(assert (<= X_754 1.6716418041776648))
+(assert (>= X_754 1.2232113109041223))
+
+(assert (<= X_755 1.5348721518110267))
+(assert (>= X_755 1.086441658537484))
+
+(assert (<= X_756 1.2716855778287879))
+(assert (>= X_756 0.8232550845552453))
+
+(assert (<= X_757 0.8653654231618872))
+(assert (>= X_757 0.4169349298883447))
+
+(assert (<= X_758 0.20867313527723466))
+(assert (>= X_758 -0.23975735799630796))
+
+(assert (<= X_759 -0.21512167910823907))
+(assert (>= X_759 -0.6635521723817817))
+
+(assert (<= X_760 0.003932259876631844))
+(assert (>= X_760 -0.44449823339691075))
+
+(assert (<= X_761 0.33821354051341923))
+(assert (>= X_761 -0.11021695276012336))
+
+(assert (<= X_762 0.5615458561967841))
+(assert (>= X_762 0.11311536292324151))
+
+(assert (<= X_763 0.6389519645761481))
+(assert (>= X_763 0.19052147130260552))
+
+(assert (<= X_764 0.6351323201250068))
+(assert (>= X_764 0.18670182685146416))
+
+(assert (<= X_765 0.6529061569761268))
+(assert (>= X_765 0.20447566370258416))
+
+(assert (<= X_766 0.6423935367654792))
+(assert (>= X_766 0.19396304349193658))
+
+(assert (<= X_767 0.6298761739324561))
+(assert (>= X_767 0.1814456806589135))
+
+(assert (<= X_768 0.6706796958040229))
+(assert (>= X_768 0.22224920253048028))
+
+(assert (<= X_769 0.6609250976633063))
+(assert (>= X_769 0.21249460438976372))
+
+(assert (<= X_770 0.6547208799909583))
+(assert (>= X_770 0.2062903867174157))
+
+(assert (<= X_771 0.6662903203557959))
+(assert (>= X_771 0.21785982708225335))
+
+(assert (<= X_772 0.5432041956972113))
+(assert (>= X_772 0.09477370242366875))
+
+(assert (<= X_773 0.6313129438947669))
+(assert (>= X_773 0.1828824506212243))
+
+(assert (<= X_774 0.5696756019186011))
+(assert (>= X_774 0.12124510864505852))
+
+(assert (<= X_775 0.6367591692995063))
+(assert (>= X_775 0.18832867602596368))
+
+(assert (<= X_776 0.5174924208711615))
+(assert (>= X_776 0.06906192759761895))
+
+(assert (<= X_777 0.5164336933683387))
+(assert (>= X_777 0.06800320009479607))
+
+(assert (<= X_778 0.3877904339622489))
+(assert (>= X_778 -0.06064005931129371))
+
+(assert (<= X_779 0.27816947539558323))
+(assert (>= X_779 -0.17026101787795936))
+
+(assert (<= X_780 0.1171547471474639))
+(assert (>= X_780 -0.3312757461260787))
+
+(assert (<= X_781 -0.12459861497173394))
+(assert (>= X_781 -0.5730291082452765))
+
+(assert (<= X_782 -0.13979773978481377))
+(assert (>= X_782 -0.5882282330583564))
+
+(assert (<= X_783 -0.01912591616401757))
+(assert (>= X_783 -0.46755640943756016))
+
+(assert (<= X_784 0.36072284718265446))
+(assert (>= X_784 -0.08770764609088813))
+
+(assert (<= X_785 0.7457486762594214))
+(assert (>= X_785 0.29731818298587886))
+
+(assert (<= X_786 0.7198470904420844))
+(assert (>= X_786 0.27141659716854183))
+
+(assert (<= X_787 0.5255588068555823))
+(assert (>= X_787 0.07712831358203973))
+
+(assert (<= X_788 0.21937577742373263))
+(assert (>= X_788 -0.22905471584981))
+
+(assert (<= X_789 -0.06710978607425774))
+(assert (>= X_789 -0.5155402793478003))
+
+(assert (<= X_790 -0.20422919849643792))
+(assert (>= X_790 -0.6526596917699805))
+
+(assert (<= X_791 -0.015575431387520683))
+(assert (>= X_791 -0.4640059246610633))
+
+(assert (<= X_792 0.17995960255374824))
+(assert (>= X_792 -0.26847089071979435))
+
+(assert (<= X_793 0.3804521187137595))
+(assert (>= X_793 -0.06797837455978309))
+
+(assert (<= X_794 0.5809444858621589))
+(assert (>= X_794 0.13251399258861626))
+
+(assert (<= X_795 0.5952766015123359))
+(assert (>= X_795 0.14684610823879327))
+
+(assert (<= X_796 0.644398309190177))
+(assert (>= X_796 0.19596781591663445))
+
+(assert (<= X_797 0.5196870936941138))
+(assert (>= X_797 0.07125660042057122))
+
+(assert (<= X_798 0.6973392738889685))
+(assert (>= X_798 0.24890878061542596))
+
+(assert (<= X_799 0.5162455215047828))
+(assert (>= X_799 0.06781502823124017))
+
+(assert (<= X_800 0.6345643474649421))
+(assert (>= X_800 0.18613385419139947))
+
+(assert (<= X_801 0.6228051259111396))
+(assert (>= X_801 0.17437463263759698))
+
+(assert (<= X_802 0.5482705905031195))
+(assert (>= X_802 0.09984009722957696))
+
+(assert (<= X_803 0.6145959868024817))
+(assert (>= X_803 0.16616549352893914))
+
+(assert (<= X_804 0.59701234837284))
+(assert (>= X_804 0.14858185509929742))
+
+(assert (<= X_805 0.6251086070131293))
+(assert (>= X_805 0.17667811373958672))
+
+(assert (<= X_806 0.676045186717414))
+(assert (>= X_806 0.2276146934438714))
+
+(assert (<= X_807 0.6687839700769416))
+(assert (>= X_807 0.22035347680339898))
+
+(assert (<= X_808 0.6818693353723517))
+(assert (>= X_808 0.23343884209880914))
+
+(assert (<= X_809 0.6088508143018714))
+(assert (>= X_809 0.1604203210283288))
+
+(assert (<= X_810 0.5273243560384742))
+(assert (>= X_810 0.07889386276493157))
+
+(assert (<= X_811 0.4090056790899268))
+(assert (>= X_811 -0.03942481418361579))
+
+(assert (<= X_812 0.3271011485647193))
+(assert (>= X_812 -0.12132934470882331))
+
+(assert (<= X_813 0.13587447990884696))
+(assert (>= X_813 -0.31255601336469563))
+
+(assert (<= X_814 -0.1490951106954583))
+(assert (>= X_814 -0.5975256039690009))
+
+(assert (<= X_815 -0.3061021194864282))
+(assert (>= X_815 -0.7545326127599707))
+
+(assert (<= X_816 -0.33438839773426143))
+(assert (>= X_816 -0.782818891007804))
+
+(assert (<= X_817 -0.3534088955331811))
+(assert (>= X_817 -0.8018393888067237))
+
+(assert (<= X_818 -0.36191668371448604))
+(assert (>= X_818 -0.8103471769880286))
+
+(assert (<= X_819 -0.33907672027835933))
+(assert (>= X_819 -0.7875072135519019))
+
+(assert (<= X_820 -0.30829676250705806))
+(assert (>= X_820 -0.7567272557806006))
+
+(assert (<= X_821 -0.221703939240075))
+(assert (>= X_821 -0.6701344325136176))
+
+(assert (<= X_822 -0.006390445034600151))
+(assert (>= X_822 -0.45482093830814274))
+
+(assert (<= X_823 0.22219831113924896))
+(assert (>= X_823 -0.22623218213429366))
+
+(assert (<= X_824 0.3804521187137595))
+(assert (>= X_824 -0.06797837455978309))
+
+(assert (<= X_825 0.37519567449798497))
+(assert (>= X_825 -0.07323481877555763))
+
+(assert (<= X_826 0.3347719683240882))
+(assert (>= X_826 -0.11365852494945441))
+
+(assert (<= X_827 0.3036139755438796))
+(assert (>= X_827 -0.144816517729663))
+
+(assert (<= X_828 0.2985475807379714))
+(assert (>= X_828 -0.1498829125355712))
+
+(assert (<= X_829 0.2934811859320632))
+(assert (>= X_829 -0.1549493073414794))
+
+(assert (<= X_830 0.32539706667175206))
+(assert (>= X_830 -0.12303342660179054))
+
+(assert (<= X_831 0.35330366333236607))
+(assert (>= X_831 -0.09512682994117652))
+
+(assert (<= X_832 0.6300659253190986))
+(assert (>= X_832 0.18163543204555596))
+
+(assert (<= X_833 0.6223161294054023))
+(assert (>= X_833 0.17388563613185967))
+
+(assert (<= X_834 0.6025376691411963))
+(assert (>= X_834 0.15410717586765374))
+
+(assert (<= X_835 0.6161119117330542))
+(assert (>= X_835 0.16768141845951165))
+
+(assert (<= X_836 0.6213682069372168))
+(assert (>= X_836 0.17293771366367425))
+
+(assert (<= X_837 0.6266245021413794))
+(assert (>= X_837 0.17819400886783685))
+
+(assert (<= X_838 0.6291181518625251))
+(assert (>= X_838 0.18068765858898247))
+
+(assert (<= X_839 0.60858181854))
+(assert (>= X_839 0.16015132526645745))
+
+(assert (<= X_840 0.7271696700643531))
+(assert (>= X_840 0.2787391767908105))
+
+(assert (<= X_841 0.6761242820810309))
+(assert (>= X_841 0.22769378880748833))
+
+(assert (<= X_842 0.599476046759986))
+(assert (>= X_842 0.1510455534864434))
+
+(assert (<= X_843 0.5106885208677283))
+(assert (>= X_843 0.06225802759418572))
+
+(assert (<= X_844 0.3604519440721503))
+(assert (>= X_844 -0.08797854920139228))
+
+(assert (<= X_845 0.33235557367315205))
+(assert (>= X_845 -0.11607491960039054))
+
+(assert (<= X_846 0.192065492172145))
+(assert (>= X_846 -0.2563650011013976))
+
+(assert (<= X_847 -0.07006409029254998))
+(assert (>= X_847 -0.5184945835660926))
+
+(assert (<= X_848 -0.16543205837497796))
+(assert (>= X_848 -0.6138625516485205))
+
+(assert (<= X_849 -0.1940964088846215))
+(assert (>= X_849 -0.6425269021581641))
+
+(assert (<= X_850 -0.18214889625797356))
+(assert (>= X_850 -0.6305793895315162))
+
+(assert (<= X_851 -0.09948640326747979))
+(assert (>= X_851 -0.5479168965410224))
+
+(assert (<= X_852 -0.0661338196207055))
+(assert (>= X_852 -0.5145643128942481))
+
+(assert (<= X_853 0.25963965048303517))
+(assert (>= X_853 -0.18879084279050742))
+
+(assert (<= X_854 0.49855110784282597))
+(assert (>= X_854 0.05012061456928338))
+
+(assert (<= X_855 0.5784508659433356))
+(assert (>= X_855 0.13002037266979302))
+
+(assert (<= X_856 0.6427716090272895))
+(assert (>= X_856 0.19434111575374688))
+
+(assert (<= X_857 0.6512794568132392))
+(assert (>= X_857 0.2028489635396966))
+
+(assert (<= X_858 0.6545310988019934))
+(assert (>= X_858 0.20610060552845086))
+
+(assert (<= X_859 0.6597872747968665))
+(assert (>= X_859 0.2113567815233239))
+
+(assert (<= X_860 0.6492746545862189))
+(assert (>= X_860 0.20084416131267632))
+
+(assert (<= X_861 0.6055992915224067))
+(assert (>= X_861 0.15716879824886407))
+
+(assert (<= X_862 0.5900203063081733))
+(assert (>= X_862 0.14158981303463067))
+
+(assert (<= X_863 0.4845178200792304))
+(assert (>= X_863 0.0360873268056878))
+
+(assert (<= X_864 0.5922149791311255))
+(assert (>= X_864 0.14378448585758294))
+
+(assert (<= X_865 0.4158885403465262))
+(assert (>= X_865 -0.032541952927016365))
+
+(assert (<= X_866 0.5056221260618201))
+(assert (>= X_866 0.05719163278827752))
+
+(assert (<= X_867 0.41369386752357395))
+(assert (>= X_867 -0.034736625749968636))
+
+(assert (<= X_868 0.5772041155885688))
+(assert (>= X_868 0.12877362231502618))
+
+(assert (<= X_869 0.4468566252778998))
+(assert (>= X_869 -0.0015738679956427692))
+
+(assert (<= X_870 0.573493517835044))
+(assert (>= X_870 0.1250630245615014))
+
+(assert (<= X_871 0.7521236910413733))
+(assert (>= X_871 0.30369319776783077))
+
+(assert (<= X_872 0.8482512607168189))
+(assert (>= X_872 0.3998207674432763))
+
+(assert (<= X_873 0.7537185921262732))
+(assert (>= X_873 0.30528809885273067))
+
+(assert (<= X_874 0.6032920851301184))
+(assert (>= X_874 0.15486159185657586))
+
+(assert (<= X_875 0.480773813922309))
+(assert (>= X_875 0.03234332064876641))
+
+(assert (<= X_876 0.3845371677469245))
+(assert (>= X_876 -0.06389332552661811))
+
+(assert (<= X_877 0.2335444427024356))
+(assert (>= X_877 -0.21488605057110702))
+
+(assert (<= X_878 0.04231778522243415))
+(assert (>= X_878 -0.40611270805110844))
+
+(assert (<= X_879 -0.008238725464440239))
+(assert (>= X_879 -0.45666921873798283))
+
+(assert (<= X_880 0.045949391920470345))
+(assert (>= X_880 -0.40248110135307225))
+
+(assert (<= X_881 0.09393312772025977))
+(assert (>= X_881 -0.3544973655532828))
+
+(assert (<= X_882 0.14573651542177116))
+(assert (>= X_882 -0.30269397785177143))
+
+(assert (<= X_883 0.24923422922601615))
+(assert (>= X_883 -0.19919626404752647))
+
+(assert (<= X_884 0.40968271334876927))
+(assert (>= X_884 -0.03874777992477332))
+
+(assert (<= X_885 0.4734055622409812))
+(assert (>= X_885 0.02497506896743859))
+
+(assert (<= X_886 0.42341690500488194))
+(assert (>= X_886 -0.025013588268660653))
+
+(assert (<= X_887 0.5812117828916541))
+(assert (>= X_887 0.1327812896181115))
+
+(assert (<= X_888 0.5568558051179877))
+(assert (>= X_888 0.10842531184444512))
+
+(assert (<= X_889 0.5686151458810798))
+(assert (>= X_889 0.12018465260753716))
+
+(assert (<= X_890 0.5662323011945716))
+(assert (>= X_890 0.11780180792102898))
+
+(assert (<= X_891 0.570920742947959))
+(assert (>= X_891 0.12249024967441643))
+
+(assert (<= X_892 0.6216671540330878))
+(assert (>= X_892 0.17323666075954522))
+
+(assert (<= X_893 0.6588394715379706))
+(assert (>= X_893 0.21040897826442803))
+
+(assert (<= X_894 0.6380041911195746))
+(assert (>= X_894 0.18957369784603204))
+
+(assert (<= X_895 0.6420135869573584))
+(assert (>= X_895 0.19358309368381585))
+
+(assert (<= X_896 0.25668694813957127))
+(assert (>= X_896 -0.19174354513397132))
+
+(assert (<= X_897 0.20049433586409007))
+(assert (>= X_897 -0.24793615740945255))
+
+(assert (<= X_898 0.17115107541193877))
+(assert (>= X_898 -0.2772794178616038))
+
+(assert (<= X_899 0.16082851578702842))
+(assert (>= X_899 -0.28760197748651417))
+
+(assert (<= X_900 0.1869201137613288))
+(assert (>= X_900 -0.2615103795122138))
+
+(assert (<= X_901 0.20957014513423358))
+(assert (>= X_901 -0.23886034813930904))
+
+(assert (<= X_902 0.49952695508708866))
+(assert (>= X_902 0.051096461813546074))
+
+(assert (<= X_903 0.8873473777364722))
+(assert (>= X_903 0.43891688446292965))
+
+(assert (<= X_904 1.1770863308500281))
+(assert (>= X_904 0.7286558375764856))
+
+(assert (<= X_905 1.2801726831983558))
+(assert (>= X_905 0.8317421899248132))
+
+(assert (<= X_906 0.7743288054059974))
+(assert (>= X_906 0.3258983121324548))
+
+(assert (<= X_907 0.20715027665009414))
+(assert (>= X_907 -0.24128021662344848))
+
+(assert (<= X_908 0.052150003511809456))
+(assert (>= X_908 -0.39628048976173313))
+
+(assert (<= X_909 0.043263964254759896))
+(assert (>= X_909 -0.4051665290187827))
+
+(assert (<= X_910 -0.007482431929207695))
+(assert (>= X_910 -0.4559129252027503))
+
+(assert (<= X_911 -0.08106904486904229))
+(assert (>= X_911 -0.5294995381425849))
+
+(assert (<= X_912 -0.14108144501934136))
+(assert (>= X_912 -0.589511938292884))
+
+(assert (<= X_913 -0.19659539322147454))
+(assert (>= X_913 -0.6450258864950171))
+
+(assert (<= X_914 -0.17776482562313164))
+(assert (>= X_914 -0.6261953188966742))
+
+(assert (<= X_915 -0.06280650953540887))
+(assert (>= X_915 -0.5112370028089515))
+
+(assert (<= X_916 0.057218007643126595))
+(assert (>= X_916 -0.391212485630416))
+
+(assert (<= X_917 0.16491530825605308))
+(assert (>= X_917 -0.2835151850174895))
+
+(assert (<= X_918 0.24757772674074088))
+(assert (>= X_918 -0.20085276653280174))
+
+(assert (<= X_919 0.27472604056110295))
+(assert (>= X_919 -0.17370445271243964))
+
+(assert (<= X_920 0.32165306796541127))
+(assert (>= X_920 -0.12677742530813133))
+
+(assert (<= X_921 0.42658757408370884))
+(assert (>= X_921 -0.021842919189833748))
+
+(assert (<= X_922 0.5559888555597297))
+(assert (>= X_922 0.10755836228618706))
+
+(assert (<= X_923 0.5693749262880317))
+(assert (>= X_923 0.12094443301448907))
+
+(assert (<= X_924 0.6585406436513892))
+(assert (>= X_924 0.2101101503778466))
+
+(assert (<= X_925 0.6422034873556128))
+(assert (>= X_925 0.19377299408207024))
+
+(assert (<= X_926 0.6349424197267524))
+(assert (>= X_926 0.18651192645320977))
+
+(assert (<= X_927 0.6316908969472876))
+(assert (>= X_927 0.18326040367374505))
+
+(assert (<= X_928 0.6065472139905921))
+(assert (>= X_928 0.1581167207170495))
+
+(assert (<= X_929 0.4877693428586951))
+(assert (>= X_929 0.03933884958515252))
+
+(assert (<= X_930 0.594029851157569))
+(assert (>= X_930 0.14559935788402642))
+
+(assert (<= X_931 0.42095493515243443))
+(assert (>= X_931 -0.027475558121108162))
+
+(assert (<= X_932 0.5772041155885688))
+(assert (>= X_932 0.12877362231502618))
+
+(assert (<= X_933 0.45010816295852574))
+(assert (>= X_933 0.0016776696849831463))
+
+(assert (<= X_934 0.5624128057550422))
+(assert (>= X_934 0.11398231248149956))
+
+(assert (<= X_935 0.8956653251241675))
+(assert (>= X_935 0.44723483185062496))
+
+(assert (<= X_936 1.3971653952192298))
+(assert (>= X_936 0.9487349019456872))
+
+(assert (<= X_937 1.3973235859464637))
+(assert (>= X_937 0.9488930926729211))
+
+(assert (<= X_938 1.1867757215093604))
+(assert (>= X_938 0.7383452282358178))
+
+(assert (<= X_939 1.160195268590354))
+(assert (>= X_939 0.7117647753168115))
+
+(assert (<= X_940 1.2307203783582679))
+(assert (>= X_940 0.7822898850847253))
+
+(assert (<= X_941 1.2495509161542884))
+(assert (>= X_941 0.8011204228807458))
+
+(assert (<= X_942 1.2598734869550696))
+(assert (>= X_942 0.8114429936815271))
+
+(assert (<= X_943 1.209126926858329))
+(assert (>= X_943 0.7606964335847863))
+
+(assert (<= X_944 1.1242699398588172))
+(assert (>= X_944 0.6758394465852746))
+
+(assert (<= X_945 1.063499666650199))
+(assert (>= X_945 0.6150691733766565))
+
+(assert (<= X_946 1.0180094613622657))
+(assert (>= X_946 0.5695789680887231))
+
+(assert (<= X_947 1.008634664018058))
+(assert (>= X_947 0.5602041707445153))
+
+(assert (<= X_948 1.0407405867170325))
+(assert (>= X_948 0.59231009344349))
+
+(assert (<= X_949 1.0399825944494239))
+(assert (>= X_949 0.5915521011758813))
+
+(assert (<= X_950 1.0163846387456885))
+(assert (>= X_950 0.567954145472146))
+
+(assert (<= X_951 0.9988007320951453))
+(assert (>= X_951 0.5503702388216027))
+
+(assert (<= X_952 0.9440447463582984))
+(assert (>= X_952 0.4956142530847558))
+
+(assert (<= X_953 0.7747103943418494))
+(assert (>= X_953 0.32627990106830684))
+
+(assert (<= X_954 0.6070025338720313))
+(assert (>= X_954 0.1585720405984887))
+
+(assert (<= X_955 0.47446239729633244))
+(assert (>= X_955 0.026031904022789848))
+
+(assert (<= X_956 0.5052423252653113))
+(assert (>= X_956 0.05681183199176873))
+
+(assert (<= X_957 0.6096088363718024))
+(assert (>= X_957 0.16117834309825982))
+
+(assert (<= X_958 0.5280031337331763))
+(assert (>= X_958 0.07957264045963372))
+
+(assert (<= X_959 0.5983382238935462))
+(assert (>= X_959 0.1499077306200036))
+
+(assert (<= X_960 0.563550628621482))
+(assert (>= X_960 0.11512013534793938))
+
+(assert (<= X_961 0.5668021514009467))
+(assert (>= X_961 0.1183716581274041))
+
+(assert (<= X_962 0.616491712529563))
+(assert (>= X_962 0.16806121925602044))
+
+(assert (<= X_963 0.6554789020608893))
+(assert (>= X_963 0.20704840878734673))
+
+(assert (<= X_964 0.6253777517866126))
+(assert (>= X_964 0.17694725851307))
+
+(assert (<= X_965 0.6338857187818518))
+(assert (>= X_965 0.18545522550830926))
+
+(assert (<= X_966 0.676045186717414))
+(assert (>= X_966 0.2276146934438714))
+
+(assert (<= X_967 0.9295859708379737))
+(assert (>= X_967 0.4811554775644311))
+
+(assert (<= X_968 0.9543182625364295))
+(assert (>= X_968 0.5058877692628869))
+
+(assert (<= X_969 1.0073386206220618))
+(assert (>= X_969 0.5589081273485192))
+
+(assert (<= X_970 1.2189926876615516))
+(assert (>= X_970 0.770562194388009))
+
+(assert (<= X_971 1.4486084951948157))
+(assert (>= X_971 1.0001780019212732))
+
+(assert (<= X_972 1.512818194825553))
+(assert (>= X_972 1.0643877015520105))
+
+(assert (<= X_973 1.5405348314832679))
+(assert (>= X_973 1.0921043382097253))
+
+(assert (<= X_974 1.5696879400800696))
+(assert (>= X_974 1.121257446806527))
+
+(assert (<= X_975 1.570745088059806))
+(assert (>= X_975 1.1223145947862634))
+
+(assert (<= X_976 1.5303213371824256))
+(assert (>= X_976 1.081890843908883))
+
+(assert (<= X_977 1.4723135008405677))
+(assert (>= X_977 1.023883007567025))
+
+(assert (<= X_978 1.4951538815092078))
+(assert (>= X_978 1.0467233882356652))
+
+(assert (<= X_979 1.5903333201002112))
+(assert (>= X_979 1.1419028268266687))
+
+(assert (<= X_980 1.671181060273551))
+(assert (>= X_980 1.2227505670000085))
+
+(assert (<= X_981 1.6744326128553382))
+(assert (>= X_981 1.2260021195817956))
+
+(assert (<= X_982 1.6776840462278357))
+(assert (>= X_982 1.2292535529542932))
+
+(assert (<= X_983 1.6661146654676429))
+(assert (>= X_983 1.2176841721941003))
+
+(assert (<= X_984 1.5872719063352576))
+(assert (>= X_984 1.138841413061715))
+
+(assert (<= X_985 1.259194828469657))
+(assert (>= X_985 0.8107643351961145))
+
+(assert (<= X_986 0.9566412343572608))
+(assert (>= X_986 0.5082107410837182))
+
+(assert (<= X_987 0.5513779296468726))
+(assert (>= X_987 0.10294743637333001))
+
+(assert (<= X_988 0.24693049666693126))
+(assert (>= X_988 -0.20149999660661136))
+
+(assert (<= X_989 0.36199953397025975))
+(assert (>= X_989 -0.08643095930328284))
+
+(assert (<= X_990 0.4243155195306769))
+(assert (>= X_990 -0.02411497374286567))
+
+(assert (<= X_991 0.46148783703555973))
+(assert (>= X_991 0.013057343762017143))
+
+(assert (<= X_992 0.6278715207170478))
+(assert (>= X_992 0.17944102744350518))
+
+(assert (<= X_993 0.5791296138357154))
+(assert (>= X_993 0.13069912056217278))
+
+(assert (<= X_994 0.5492183937620154))
+(assert (>= X_994 0.10078790048847283))
+
+(assert (<= X_995 0.5771248414110175))
+(assert (>= X_995 0.1286943481374749))
+
+(assert (<= X_996 0.6102876140665046))
+(assert (>= X_996 0.16185712079296197))
+
+(assert (<= X_997 0.6082828416418067))
+(assert (>= X_997 0.1598523483682641))
+
+(assert (<= X_998 0.6881827487539283))
+(assert (>= X_998 0.23975225548038567))
+
+(assert (<= X_999 0.8982379211973182))
+(assert (>= X_999 0.4498074279237756))
+
+(assert (<= X_1000 1.0101310982297889))
+(assert (>= X_1000 0.5617006049562463))
+
+(assert (<= X_1001 1.2048784269880286))
+(assert (>= X_1001 0.756447933714486))
+
+(assert (<= X_1002 1.4555194153379432))
+(assert (>= X_1002 1.0070889220644006))
+
+(assert (<= X_1003 1.5069937481473914))
+(assert (>= X_1003 1.0585632548738488))
+
+(assert (<= X_1004 1.2991297020505896))
+(assert (>= X_1004 0.8506992087770471))
+
+(assert (<= X_1005 1.1406858338903418))
+(assert (>= X_1005 0.6922553406167993))
+
+(assert (<= X_1006 1.0695929898809424))
+(assert (>= X_1006 0.6211624966073999))
+
+(assert (<= X_1007 1.030905045468711))
+(assert (>= X_1007 0.5824745521951684))
+
+(assert (<= X_1008 1.0248905791830054))
+(assert (>= X_1008 0.5764600859094628))
+
+(assert (<= X_1009 1.0278432740758887))
+(assert (>= X_1009 0.5794127808023462))
+
+(assert (<= X_1010 0.9946805014204017))
+(assert (>= X_1010 0.5462500081468591))
+
+(assert (<= X_1011 1.0374080910276404))
+(assert (>= X_1011 0.5889775977540979))
+
+(assert (<= X_1012 1.1215072645734778))
+(assert (>= X_1012 0.6730767712999353))
+
+(assert (<= X_1013 1.151418425042533))
+(assert (>= X_1013 0.7029879317689904))
+
+(assert (<= X_1014 1.425008512933158))
+(assert (>= X_1014 0.9765780196596154))
+
+(assert (<= X_1015 1.6438425554822913))
+(assert (>= X_1015 1.1954120622087487))
+
+(assert (<= X_1016 1.6573076023649207))
+(assert (>= X_1016 1.2088771090913781))
+
+(assert (<= X_1017 1.5516963972639075))
+(assert (>= X_1017 1.103265903990365))
+
+(assert (<= X_1018 0.9914009346555701))
+(assert (>= X_1018 0.5429704413820275))
+
+(assert (<= X_1019 0.5142864658426276))
+(assert (>= X_1019 0.06585597256908501))
+
+(assert (<= X_1020 0.4573675020526877))
+(assert (>= X_1020 0.008937008779145134))
+
+(assert (<= X_1021 0.5847640111040107))
+(assert (>= X_1021 0.13633351783046807))
+
+(assert (<= X_1022 0.5189273430894843))
+(assert (>= X_1022 0.0704968498159417))
+
+(assert (<= X_1023 0.4827029480527869))
+(assert (>= X_1023 0.034272454779244316))
+
+
+; Output Constraints
+(assert (or
+	(and (>= Y_0 Y_2))
+	(and (>= Y_1 Y_2))
+	(and (>= Y_4 Y_2))
+	(and (>= Y_5 Y_2))
+	(and (>= Y_6 Y_2))
+	(and (>= Y_7 Y_2))
+	(and (>= Y_10 Y_2))
+	(and (>= Y_11 Y_2))
+	(and (>= Y_0 Y_3))
+	(and (>= Y_1 Y_3))
+	(and (>= Y_4 Y_3))
+	(and (>= Y_5 Y_3))
+	(and (>= Y_6 Y_3))
+	(and (>= Y_7 Y_3))
+	(and (>= Y_10 Y_3))
+	(and (>= Y_11 Y_3))
+	(and (>= Y_0 Y_8))
+	(and (>= Y_1 Y_8))
+	(and (>= Y_4 Y_8))
+	(and (>= Y_5 Y_8))
+	(and (>= Y_6 Y_8))
+	(and (>= Y_7 Y_8))
+	(and (>= Y_10 Y_8))
+	(and (>= Y_11 Y_8))
+	(and (>= Y_0 Y_9))
+	(and (>= Y_1 Y_9))
+	(and (>= Y_4 Y_9))
+	(and (>= Y_5 Y_9))
+	(and (>= Y_6 Y_9))
+	(and (>= Y_7 Y_9))
+	(and (>= Y_10 Y_9))
+	(and (>= Y_11 Y_9))
+))

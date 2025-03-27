@@ -1,0 +1,21 @@
+# python abcrown.py --config exp_configs/my_configs/robustness_grey_base.yaml
+general:
+  root_path: ../../dataset  # Root path of the csv file.
+  csv_name: instances_eps_0.05.csv # Name of the csv file (ONLY one column listed paths to vnnlibs).
+model:
+  name: Customized("my_models", "model_grey")
+data:
+  dataset: Customized("gtsrb_dataset", "gtsrb_32_grey")
+  mean: [0.3211]
+  std: [0.2230]
+  num_outputs: 43
+  start: 0
+  end: 100
+attack:
+  pgd_restarts: 100
+solver:
+  batch_size: 32
+  beta-crown:
+    iteration: 20
+bab:
+  timeout: 300
