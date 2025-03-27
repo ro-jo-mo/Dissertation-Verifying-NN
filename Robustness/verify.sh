@@ -2,7 +2,7 @@ cd ..
 cd alpha-beta-CROWN
 cd complete_verifier
 
-models="/home/rob/code/Project/Robustness/models/"
+models="../../Robustness/models/"
 for model in "$models"*.pth; do
     file=$(basename "$model")
     echo "File: $file"

@@ -7,6 +7,7 @@ from pathlib import Path
 # PATH,LABELS,normalise,GROUPS,GROUP_NAMES,n_classes,train_loader,test_loader = get_data(_N,batch_size)
 
 def get_data(_N,batch_size):
+    torch.manual_seed(42)
     mean = 0.3211
     std = 0.2230
     PATH = Path("/home/rob/code/Project/dataset/GTSRB/Training")
