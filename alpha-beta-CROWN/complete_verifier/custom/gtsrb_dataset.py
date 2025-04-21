@@ -29,9 +29,25 @@ def gtsrb_32_colour(spec):
     images,labels = next(iter(loader))
     minimum_values = normalise(torch.zeros((1,3,1,1)))
     maximum_values = normalise(torch.ones((1,3,1,1)))
-    epsilon
     epsilon = (epsilon / std).reshape(1,3,1,1)
     return images, labels, maximum_values, minimum_values, epsilon
+
+def get_n_of_each(imgs,labels,n): 
+    n_classes = 43
+    _N = 32
+    frequency = torch.zeros(n_classes)
+    save_imgs = torch.zeros((n*n_classes,1,_N,_N),dtype=torch.float32)
+    save_labels = torch.zeros(n*n_classes,dtype=torch.int64)
+    counter = 0
+    for img,label in zip(imgs,labels):
+        if frequency[label] >= n:
+            continue
+        frequency[label] += 1
+        save_imgs[counter] = img
+        save_labels[counter] = label
+        counter += 1
+    return save_imgs,save_labels
+
 
 def gtsrb_32_grey(spec):
     mean = torch.tensor(arguments.Config["data"]["mean"])
@@ -51,12 +67,12 @@ def gtsrb_32_grey(spec):
     loader = torch.utils.data.DataLoader(dataset, 
                                            batch_size=99999, 
                                            num_workers=6,
-                                           shuffle=True
+                                           shuffle=False
                                            )
                                            
     images,labels = next(iter(loader))
+    images,labels = get_n_of_each(images,labels,10)
     minimum_values = normalise(torch.zeros((1,1,1,1)))
     maximum_values = normalise(torch.ones((1,1,1,1)))
-    epsilon
     epsilon = (epsilon / std).reshape(1,1,1,1)
     return images, labels, maximum_values, minimum_values, epsilon
