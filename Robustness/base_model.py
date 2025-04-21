@@ -120,9 +120,9 @@ class Model(torch.nn.Module):
         self.conv2 = torch.nn.Conv2d(x.shape[1],16,5)
         x = self.pool(self.activation(self.conv2(x)))
         x = torch.flatten(x, start_dim=1)
-        self.dense1 = torch.nn.Linear(x.shape[1],128)
+        self.dense1 = torch.nn.Linear(x.shape[1],120)
         x = self.activation(self.dense1(x))
-        self.dense2 = torch.nn.Linear(x.shape[1],64)
+        self.dense2 = torch.nn.Linear(x.shape[1],80)
         x = self.activation(self.dense2(x))
         self.final = torch.nn.Linear(x.shape[1],n_classes)
 
