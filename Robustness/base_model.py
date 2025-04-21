@@ -89,6 +89,22 @@ test_loader = torch.utils.data.DataLoader(test_dataset,
                                           shuffle=False
                                           )
 
+class EarlyStopping:
+    def __init__(self,threshold):
+        self.counter = 0
+        self.threshold = threshold
+        self.min_loss = 999999999
+    def should_stop_early(self,current_loss):
+        if current_loss < self.min_loss:
+            self.counter = 0
+            self.min_loss = current_loss
+            return False
+        self.counter += 1
+        return self.counter >= self.threshold
+
+
+
+
 class Model(torch.nn.Module):
     def __init__(self):
         super().__init__()
@@ -123,9 +139,8 @@ class Model(torch.nn.Module):
 
         return x
 
-
 def train(model,loss_func,optimiser,epochs):
-    print("Standard Training")
+    early = EarlyStopping(5)
     for epoch in range(epochs):
         total_loss = 0
         for images, labels in train_loader:
@@ -138,7 +153,11 @@ def train(model,loss_func,optimiser,epochs):
             loss.backward()
             optimiser.step()
             total_loss += loss.item()
-        print(f"Epoch {epoch+1} --- Training Loss {total_loss / len(train_loader):.3f} --- Validation Loss {test_performance(model,loss_func):.3f}")
+        validation_loss = test_performance(model,loss_func)
+        print(f"Epoch {epoch+1} --- Training Loss {total_loss / len(train_loader):.3f} --- Validation Loss {validation_loss:.3f}")
+        if early.should_stop_early(validation_loss):
+            print("Early stopping")
+            break
 
 def test_performance(model,loss_func):
     loss = 0
@@ -212,7 +231,7 @@ def denormalise(images):
     return images * std + mean
 
 def adversarial_training(model,loss_func,optimiser,epochs,epsilon,iterations,decay_rate,learning_rate,momentum_decay):
-    print("Adversarial Training")
+    early = EarlyStopping(8)
     for epoch in range(epochs):
         total_loss = 0
         for images, labels in train_loader:
@@ -230,7 +249,11 @@ def adversarial_training(model,loss_func,optimiser,epochs,epsilon,iterations,dec
             loss.backward()
             optimiser.step()
             total_loss += loss.item()
-        print(f"Epoch {epoch+1} --- Training Loss {total_loss / len(train_loader):.3f} --- Validation Loss {test_performance(model,loss_func):.3f}")
+        validation_loss = test_performance(model,loss_func)
+        print(f"Epoch {epoch+1} --- Training Loss {total_loss / len(train_loader):.3f} --- Validation Loss {validation_loss:.3f}")
+        if early.should_stop_early(validation_loss):
+            print("Early stopping")
+            break
 
 
 if __name__ == "__main__":
@@ -259,7 +282,7 @@ if __name__ == "__main__":
         adversarial_training(model,loss_func,optimiser,epochs,epsilon,iterations,decay_rate,learning_rate,momentum_decay)
          # Changed order of stuff ...asdad
     evaluate(model)
-    path = f"models/base_epsilon_{epsilon:.3f}.pth"
+    path = f"models/base_epsilon_{255*epsilon:.0f}.pth"
     print(f"Saving {path}")
     torch.save(model.state_dict(),path)    
     
