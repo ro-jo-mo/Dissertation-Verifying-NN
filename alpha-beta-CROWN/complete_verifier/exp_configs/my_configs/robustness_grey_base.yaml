@@ -7,12 +7,12 @@ data:
   std: [0.2230]
   num_outputs: 43
   start: 0
-  end: 215
+  end: 10 #215
 attack:
   pgd_restarts: 100
 solver:
-  batch_size: 64
+  batch_size: 512
   beta-crown:
     iteration: 20
 bab:
-  timeout: 300
+  timeout: 60
