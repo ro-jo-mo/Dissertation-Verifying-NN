@@ -9,5 +9,6 @@ for model in "$models"*.pth; do
     echo "Path: $model"
     results=$file".pkl"
     echo "Results: $results"
-    python abcrown.py --config exp_configs/my_configs/robustness_grey_base.yaml --epsilon 0.0196 --results_file "$results" --load_model "$model"
+    echo "python abcrown.py --config exp_configs/my_configs/robustness_grey_base.yaml --epsilon 0.0196 --results_file \"$results\" --load_model \"$model\""
+    # python abcrown.py --config exp_configs/my_configs/robustness_grey_base.yaml --epsilon 0.0196 --results_file "$results" --load_model "$model"
 done
