@@ -6,7 +6,7 @@ import arguments
 from pathlib import Path
 
 PATH = Path("/home/rob/code/Project/dataset/GTSRB/Training")
-
+torch.manual_seed(42)
 def gtsrb_32_colour(spec):
     mean = torch.tensor(arguments.Config["data"]["mean"])
     std = torch.tensor(arguments.Config["data"]["std"])
@@ -67,11 +67,11 @@ def gtsrb_32_grey(spec):
     loader = torch.utils.data.DataLoader(dataset, 
                                            batch_size=99999, 
                                            num_workers=6,
-                                           shuffle=False
+                                           shuffle=True
                                            )
                                            
     images,labels = next(iter(loader))
-    images,labels = get_n_of_each(images,labels,10)
+    images,labels = get_n_of_each(images,labels,5)
     minimum_values = normalise(torch.zeros((1,1,1,1)))
     maximum_values = normalise(torch.ones((1,1,1,1)))
     epsilon = (epsilon / std).reshape(1,1,1,1)
