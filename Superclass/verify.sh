@@ -9,5 +9,5 @@ for model in "$models"*.pth; do
     echo "Path: $model"
     results=$file"_superclass.pkl"
     echo "Results: $results"
-    python abcrown.py --config exp_configs/my_configs/superclass.yaml --results_file "$results" --csv_name "instances_eps_0.000.csv" --load_model "$model"
+    python abcrown.py --config exp_configs/my_configs/superclass.yaml --results_file "$results" --csv_name "instances_eps_5.csv" --load_model "$model"
 done
