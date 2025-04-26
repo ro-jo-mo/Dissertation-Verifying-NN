@@ -140,7 +140,6 @@ class GroupConstraint(Constraint):
     def get_constraint(self, model: torch.nn.Module, _inputs: None, adv: torch.Tensor, _labels: None) -> Callable[[Logic], torch.Tensor]:
         probs = F.softmax(model(adv), dim=1)
         sums = [torch.sum(probs[:, indices], dim=1) for indices in self.group_indices]
-
         return lambda l: reduce(l.AND,
             [
                 l.OR(
@@ -150,6 +149,36 @@ class GroupConstraint(Constraint):
                 for s in sums
             ]
         )
+    
+class MyConstraint(Constraint):
+    def __init__(self, device: torch.device, eps: float):
+        super().__init__(device, eps)
+
+    def get_constraint(self, model: torch.nn.Module, _inputs: None, adv: torch.Tensor, _labels: None) -> Callable[[Logic], torch.Tensor]:
+        predictions = model(adv)
+        GROUPS = [1, 1, 2, 2, 1, 0, 0, 0, 2, 2, 0, 1]
+        batch_size = len(adv)
+        in_group = torch.zeros((batch_size,4)).to(self.device)
+        out_of_group = torch.zeros((batch_size,8)).to(self.device)
+        
+        for batch_index,pred in enumerate(predictions):
+            correct_group = GROUPS[_labels[batch_index]]
+            in_counter = 0
+            out_counter = 0
+            for label,group in enumerate(GROUPS):
+                if group == correct_group:
+                    in_group[batch_index,in_counter] = pred[label]
+                    in_counter += 1
+                else:
+                    out_of_group[batch_index,out_counter] = pred[label]
+                    out_counter += 1
+        return lambda l: reduce(
+                l.AND,
+                [
+                    l.LEQ(out_of_group[:,j], in_group[:,i]) for i in range(4) for j in range(8)
+                ]
+            )
+
 
 class ClassSimilarityConstraint(Constraint):
     def __init__(self, device: torch.device, eps: float, indices, delta: float = .1):
