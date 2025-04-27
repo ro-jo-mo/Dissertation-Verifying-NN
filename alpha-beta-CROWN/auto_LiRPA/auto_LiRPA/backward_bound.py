@@ -359,6 +359,12 @@ def backward_general(
         ub_reshaped = ub.reshape(shape)
         bound_node.perturbation.x_U = ub_reshaped - ub_reshaped.detach() + torch.min(bound_node.perturbation.x_U.detach(), ub_reshaped.detach())
 
+    print(f"Batch size: {batch_size}")
+    print(f"Output shape: {output_shape}")
+    print(f"Lb: {lb.shape}")
+    print(f"Output dim: {output_dim}")
+    import time
+    time.sleep(1)
     lb = lb.view(batch_size, *output_shape) if bound_lower else None
     ub = ub.view(batch_size, *output_shape) if bound_upper else None
 

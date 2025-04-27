@@ -82,6 +82,7 @@ class Superclass(torch.nn.Module):
         _N = 32
         x = torch.zeros((64,1,_N,_N))
         n_classes = 12
+
         self.activation = torch.nn.functional.relu
 
         self.pool = torch.nn.MaxPool2d(2,2)
@@ -109,5 +110,6 @@ class Superclass(torch.nn.Module):
         x = self.final(x)
 
         return x
+    
 def superclass():
     return Superclass()

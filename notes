@@ -1,0 +1,9 @@
+Batch size: 1
+Output shape: [1011]
+Lb: torch.Size([1, 1011])
+Output dim: 1011
+
+Batch size: 1
+Output shape: [909]
+Lb: torch.Size([1, 909])
+Output dim: 909
