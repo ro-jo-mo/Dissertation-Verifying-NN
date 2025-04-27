@@ -15,4 +15,4 @@ solver:
   beta-crown:
     iteration: 20
 bab:
-  timeout: 300
+  timeout: 150
