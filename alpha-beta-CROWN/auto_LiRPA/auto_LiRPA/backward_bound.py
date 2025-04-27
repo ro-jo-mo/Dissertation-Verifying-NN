@@ -363,8 +363,6 @@ def backward_general(
     print(f"Output shape: {output_shape}")
     print(f"Lb: {lb.shape}")
     print(f"Output dim: {output_dim}")
-    import time
-    time.sleep(1)
     lb = lb.view(batch_size, *output_shape) if bound_lower else None
     ub = ub.view(batch_size, *output_shape) if bound_upper else None
 
