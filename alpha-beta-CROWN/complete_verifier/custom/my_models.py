@@ -85,7 +85,7 @@ class Superclass(torch.nn.Module):
 
         self.activation = torch.nn.functional.relu
 
-        self.pool = torch.nn.MaxPool2d(2,2)
+        self.pool = torch.nn.AvgPool2d(2,2)
 
         self.conv1 = torch.nn.Conv2d(1,6,5)
         x = self.pool(self.activation(self.conv1(x)))
