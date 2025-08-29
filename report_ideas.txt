@@ -1,9 +1,0 @@
-Results of:
-- Base
-- Grid search for params
-- PGD
-- PGD -> Momentum, Exponential Decay
-- PGD -> Adam Optimiser
-- Various epsilon training
-- Verification scores for different epsilon balls
-
