@@ -1,9 +1,0 @@
-Batch size: 1
-Output shape: [1011]
-Lb: torch.Size([1, 1011])
-Output dim: 1011
-
-Batch size: 1
-Output shape: torch.Size([16, 10, 10])
-Lb: torch.Size([909, 1600])
-Output dim: 1600
