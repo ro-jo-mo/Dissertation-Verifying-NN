@@ -1,4 +1,6 @@
+<img width="1539" height="696" alt="image" src="https://github.com/user-attachments/assets/90d51fb3-6a07-4995-90a1-b5b4d7a0eaf6" />
 # Verification of Roadsign Detection
+
 My dissertation project for BSc at Southampton.
 
 This project focuses on formally guaranteeing the robustness of roadsign detection (small alterations to images don't affect classifications), through using verifiers to compute guarantees. 
@@ -10,3 +12,4 @@ Additionally a more complex "common sense" superclass property is trained for an
 
 # Report
 My report can be found [here](https://github.com/ro-jo-mo/Dissertation-Verifying-NN/blob/main/report.pdf).
+
